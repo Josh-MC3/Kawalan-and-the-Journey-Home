@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kawalan and the Journey Back</title>
+<meta name="description" content="A novella in progress — Kawalan and the Journey Back">
+<style>
+  :root{
+    --bg:        #14110f;
+    --bg-soft:   #1b1714;
+    --paper:     #ece4d4;
+    --paper-dim: #b8ad97;
+    --gold:      #c89b4a;
+    --gold-soft: #8a7039;
+    --rule:      #3a322a;
+    --serif:     "Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,"Noto Serif",serif;
+    --display:   "Iowan Old Style",Georgia,serif;
+    --max:       38rem;
+  }
+
+  *{ box-sizing: border-box; }
+  html{ -webkit-text-size-adjust: 100%; }
+
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--paper);
+    font-family:var(--serif);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{ color:var(--gold); text-decoration:none; }
+  a:focus-visible, button:focus-visible{
+    outline:2px solid var(--gold);
+    outline-offset:3px;
+  }
+
+  /* ---------- Top bar ---------- */
+  .topbar{
+    position:sticky; top:0; z-index:20;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:0.85rem 1.1rem;
+    background:rgba(20,17,15,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--rule);
+  }
+  .topbar .brand{
+    font-family:var(--display);
+    font-size:1rem;
+    letter-spacing:0.04em;
+    color:var(--paper);
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .topbar .brand small{
+    display:block;
+    font-family:var(--serif);
+    font-size:0.7rem;
+    color:var(--gold-soft);
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    margin-top:0.15rem;
+  }
+  .menu-btn{
+    flex:0 0 auto;
+    background:none; border:1px solid var(--rule);
+    color:var(--paper);
+    width:2.6rem; height:2.6rem;
+    border-radius:999px;
+    display:flex; align-items:center; justify-content:center;
+    font-size:1.1rem;
+    margin-left:0.75rem;
+  }
+  .menu-btn svg{ width:1.15rem; height:1.15rem; stroke:var(--paper); }
+
+  /* ---------- Contents drawer ---------- */
+  .scrim{
+    position:fixed; inset:0; background:rgba(0,0,0,0.55);
+    opacity:0; pointer-events:none; transition:opacity .25s ease;
+    z-index:25;
+  }
+  .scrim.open{ opacity:1; pointer-events:auto; }
+
+  .drawer{
+    position:fixed; top:0; right:0; bottom:0;
+    width:min(85vw, 22rem);
+    background:var(--bg-soft);
+    border-left:1px solid var(--rule);
+    transform:translateX(100%);
+    transition:transform .28s cubic-bezier(.2,.8,.2,1);
+    z-index:30;
+    overflow-y:auto;
+    padding:1.5rem 1.4rem 3rem;
+  }
+  .drawer.open{ transform:translateX(0); }
+  .drawer-head{
+    display:flex; justify-content:space-between; align-items:baseline;
+    margin-bottom:1.1rem;
+  }
+  .drawer-head h2{
+    font-family:var(--display);
+    font-size:1rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin:0;
+  }
+  .drawer-close{
+    background:none;border:none;color:var(--paper-dim);
+    font-size:1.4rem; line-height:1; padding:0.2rem 0.4rem;
+  }
+  .toc-part{
+    margin-top:1.3rem;
+  }
+  .toc-part-title{
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--gold-soft);
+    margin:0 0 0.5rem;
+  }
+  .toc-link{
+    display:block;
+    padding:0.5rem 0;
+    font-size:1rem;
+    color:var(--paper);
+    border-bottom:1px solid var(--rule);
+  }
+  .toc-link:active{ color:var(--gold); }
+  .toc-note{
+    display:block;
+    font-size:0.78rem;
+    color:var(--paper-dim);
+    font-style:italic;
+    margin-top:0.2rem;
+  }
+
+  /* ---------- Progress ---------- */
+  .progress-track{
+    position:sticky; top:calc(2.6rem + 1.7rem); /* under topbar visually via z-index, see note */
+    height:2px; width:100%;
+    background:var(--rule);
+    z-index:19;
+  }
+  .progress-track{ position:fixed; top:0; left:0; }
+  .progress-bar{
+    height:100%; width:0%;
+    background:var(--gold);
+    transition:width .08s linear;
+  }
+
+  /* ---------- Cover ---------- */
+  .cover{
+    padding:4.2rem 1.4rem 3.5rem;
+    text-align:center;
+    border-bottom:1px solid var(--rule);
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(200,155,74,0.10), transparent 60%);
+  }
+  .cover .eyebrow{
+    font-size:0.72rem;
+    letter-spacing:0.22em;
+    text-transform:uppercase;
+    color:var(--gold-soft);
+    margin-bottom:1.1rem;
+  }
+  .cover h1{
+    font-family:var(--display);
+    font-weight:400;
+    font-size:2.2rem;
+    line-height:1.2;
+    margin:0 0 0.9rem;
+    color:var(--paper);
+  }
+  .cover .tagline{
+    font-style:italic;
+    color:var(--paper-dim);
+    font-size:1.02rem;
+    max-width:26rem;
+    margin:0 auto 1.8rem;
+  }
+  .glyph{
+    width:34px; height:34px;
+    margin:0 auto 1.6rem;
+    opacity:0.9;
+  }
+  .start-btn{
+    display:inline-block;
+    margin-top:0.4rem;
+    padding:0.8rem 1.7rem;
+    border:1px solid var(--gold-soft);
+    border-radius:999px;
+    color:var(--gold);
+    font-size:0.85rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+  }
+
+  /* ---------- Reading column ---------- */
+  main{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:0 1.35rem 2rem;
+  }
+
+  .part-divider{
+    padding:3.4rem 0 1.6rem;
+    text-align:center;
+    scroll-margin-top:5.5rem;
+  }
+  .part-divider .num{
+    font-size:0.72rem;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    color:var(--gold-soft);
+  }
+  .part-divider h2{
+    font-family:var(--display);
+    font-weight:400;
+    font-size:1.5rem;
+    margin:0.5rem 0 0;
+    color:var(--gold);
+  }
+  .part-divider .rule{
+    width:46px; height:1px;
+    background:var(--gold-soft);
+    margin:1.1rem auto 0;
+  }
+
+  article.chapter{
+    margin-top:2.6rem;
+    scroll-margin-top:5.5rem;
+  }
+  article.chapter h3{
+    font-family:var(--display);
+    font-weight:400;
+    font-size:1.32rem;
+    color:var(--paper);
+    margin:0 0 1.5rem;
+    text-align:center;
+    letter-spacing:0.01em;
+  }
+
+  .prose p{
+    margin:0 0 1.15rem;
+    font-size:1.07rem;
+    color:var(--paper);
+    text-align:left;
+    hyphens:auto;
+  }
+  .prose em{ color:#f1e6cb; }
+  .prose p.center{ text-align:center; }
+
+  .scenebreak{
+    text-align:center;
+    color:var(--gold-soft);
+    margin:2.1rem 0;
+    letter-spacing:0.3em;
+    font-size:0.8rem;
+  }
+
+  .editor-note{
+    margin:1.6rem 0 2rem;
+    padding:1rem 1.1rem;
+    background:var(--bg-soft);
+    border-left:2px solid var(--gold-soft);
+    border-radius:2px;
+    font-size:0.92rem;
+    color:var(--paper-dim);
+    font-style:italic;
+    line-height:1.65;
+  }
+  .editor-note .tag{
+    display:block;
+    font-style:normal;
+    font-size:0.68rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--gold-soft);
+    margin-bottom:0.5rem;
+  }
+
+  .endmark{
+    text-align:center;
+    margin:3rem 0 1rem;
+    color:var(--gold-soft);
+    font-size:0.85rem;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+  }
+
+  /* ---------- In-page chapter nav ---------- */
+  .chapter-nav{
+    display:flex; justify-content:space-between; gap:0.8rem;
+    margin:2.4rem 0 0.5rem;
+    padding-top:1.4rem;
+    border-top:1px solid var(--rule);
+  }
+  .chapter-nav a{
+    flex:1 1 0;
+    font-size:0.82rem;
+    color:var(--paper-dim);
+    line-height:1.4;
+  }
+  .chapter-nav a span{
+    display:block;
+    font-size:0.68rem;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--gold-soft);
+    margin-bottom:0.2rem;
+  }
+  .chapter-nav a.next{ text-align:right; }
+
+  footer.site-foot{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:2.5rem 1.35rem 4rem;
+    text-align:center;
+    color:var(--paper-dim);
+    font-size:0.82rem;
+    border-top:1px solid var(--rule);
+  }
+
+  /* Reduced motion respect */
+  @media (prefers-reduced-motion: reduce){
+    .drawer, .scrim, .progress-bar{ transition:none; }
+  }
+
+  @media (min-width:640px){
+    .cover h1{ font-size:2.6rem; }
+    .prose p{ font-size:1.1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+
+<header class="topbar">
+  <div class="brand">Kawalan and the Journey Back
+    <small id="topbarPart">Cover</small>
+  </div>
+  <button class="menu-btn" id="menuBtn" aria-label="Open table of contents" aria-expanded="false" aria-controls="drawer">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+  </button>
+</header>
+
+<div class="scrim" id="scrim"></div>
+<nav class="drawer" id="drawer" aria-label="Table of contents">
+  <div class="drawer-head">
+    <h2>Contents</h2>
+    <button class="drawer-close" id="drawerClose" aria-label="Close table of contents">&times;</button>
+  </div>
+
+  <a class="toc-link" href="#cover">Cover</a>
+
+  <div class="toc-part">
+    <p class="toc-part-title">Part One — Simulan</p>
+    <a class="toc-link" href="#ch-courtyard">The Courtyard</a>
+  </div>
+
+  <div class="toc-part">
+    <p class="toc-part-title">Part Two — The War</p>
+    <a class="toc-link" href="#ch-letter">Barta's Letter</a>
+    <a class="toc-link" href="#ch-stand">The Final Stand</a>
+  </div>
+
+  <div class="toc-part">
+    <p class="toc-part-title">Part Three — The Long Way Home</p>
+    <a class="toc-link" href="#ch-village">The Soldiers' Village</a>
+    <a class="toc-link" href="#ch-forest">The Forest</a>
+    <a class="toc-link" href="#ch-river">The River of the Drowned</a>
+  </div>
+
+  <div class="toc-part">
+    <p class="toc-part-title">Part Four — Home</p>
+    <a class="toc-link" href="#ch-home">The Journey Back</a>
+  </div>
+</nav>
+
+<section class="cover" id="cover">
+  <svg class="glyph" viewBox="0 0 48 48" fill="none" stroke="#c89b4a" stroke-width="1.1">
+    <circle cx="24" cy="24" r="15"/>
+    <path d="M24 9 L24 39 M9 24 L39 24" stroke-opacity="0.45"/>
+    <circle cx="24" cy="24" r="2.4" fill="#c89b4a" stroke="none"/>
+  </svg>
+  <p class="eyebrow">A Novella in Progress</p>
+  <h1>Kawalan and the Journey Back</h1>
+  <p class="tagline">A warrior dies far from home and walks back anyway — guided the whole way by a tiger who is grief wearing fur, toward a wife and a son he has never held.</p>
+  <a class="start-btn" href="#ch-courtyard">Begin Reading</a>
+</section>
+
+<main>
+
+  <!-- PART ONE -->
+  <div class="part-divider" id="part-one" data-part="Part One — Simulan">
+    <p class="num">Part One</p>
+    <h2>Simulan</h2>
+    <div class="rule"></div>
+  </div>
+
+  <article class="chapter" id="ch-courtyard" data-part="Part One — Simulan · The Courtyard">
+    <h3>The Courtyard</h3>
+    <div class="prose">
+      <p>In the years before the war, Simulan kept its mornings the way it always had: slow, and golden, and unhurried, as though the village in the hills had made a private agreement with time to let it linger.</p>
+      <p>The chieftain's courtyard caught the early light first. It was a wide square of packed earth ringed by the great house and the storehouses and a single old mango tree that had been there longer than anyone living, and on most mornings it belonged to the children who came to train. The bowyer's daughter at the archery butts along the eastern wall. The chieftain's younger son with his practice swords in the center, where the ground was worn smooth by his own restless feet.</p>
+      <p>Kawalan was eleven that year, and there was nothing in the world he wanted more than to be worth watching.</p>
+      <p>It was a hard thing, being the second son. Barta had everything already&mdash;the height, the easy laugh, the way grown men leaned in when he spoke though he was only a boy. Barta would be chieftain one day; everyone said so, said it the way they said the rain would come or the mangoes would ripen, as a simple fact of the turning world. And Kawalan loved his brother, loved him fiercely, and still some mornings the love sat alongside a smaller harder thing, a need with no name, that drove him out to the courtyard before the dew had burned off to swing a wooden sword at nothing until his arms shook.</p>
+      <p><em>Be worth watching,</em> the small hard thing said. <em>Be worth remembering. Be something on your own.</em></p>
+      <p>So he trained. He trained until the village stopped being surprised by it. <em>That one,</em> the elders would say, watching him drill in the heat while other boys swam in the river, <em>that one will be a warrior. Compassion in him like his father, and iron in him besides. Watch.</em></p>
+      <p>And there was someone who watched.</p>
+      <p>He had noticed her the way you notice a change in the weather&mdash;gradually, and then all at once, and then you cannot un-notice it. The bowyer's daughter. Zephyress. She came most mornings to the eastern wall with her bow and a quiver of practice arrows, and she shot the way water moves: without strain, without hurry, every arrow finding the straw target with a soft and certain <em>thock</em> while Kawalan grunted and sweated and shattered the morning with his shouting. She was the calm to his storm. She was quiet where he was loud, still where he was always moving, and the village said of her&mdash;the way it said of him&mdash;<em>that one is gentle. That one passes through a room like a breeze through grass, and the room is better for it.</em></p>
+      <p>Neither of them had ever spoken a word to the other.</p>
+      <p>But sometimes, across the wide gold square, their eyes would meet. And she would not look away the way the other girls did, and he would not look away the way pride told him to, and for a moment that lasted a heartbeat too long the courtyard would hold the two of them in its quiet, the warrior and the archer, the storm and the breeze, before one of them&mdash;it was always one of them&mdash;broke and turned back to the work.</p>
+      <p>It went on like that for a season. Sweet eyes and silence. Neither of them brave enough, in all their bravery, to cross the courtyard.</p>
+      <p>It took a wooden sword to do what the two of them could not.</p>
+      <p>It happened on a morning bright enough to hurt. Barta had come out to watch&mdash;just for a moment, just long enough to ruffle Kawalan's hair and call him <em>baby warrior</em> and laugh and go&mdash;and the small hard thing in Kawalan's chest had flared up white-hot in his brother's wake. He drilled harder. Wilder. And because she was there, because she was <em>watching</em>, he reached for a strike his arms weren't ready for, a great overhead blow with everything in it, all his eleven years of wanting to be worth the watching poured into one swing&mdash;</p>
+      <p>The practice sword struck the post wrong, and shattered.</p>
+      <p>He heard the crack before he felt anything. Then the world lurched, and there was a bright hot line of pain in his shoulder, and when he looked down stupidly a long splinter of wood stood out of the meat below his collarbone, dark blood already welling around it and running down his arm.</p>
+      <p>He swayed. The courtyard tilted. <em>Don't fall,</em> the small hard thing said, panicking. <em>Not in front of her. Don't you dare fall&mdash;</em></p>
+      <p>And then she was there.</p>
+      <p>He hadn't seen her cross. One moment she was a small figure at the distant wall and the next she was in front of him, close enough to touch, her bow forgotten in the dirt behind her. She took his arm in both hands with a steadiness that astonished him&mdash;no squeamishness, no fuss, just the brisk sure grip of a girl who had grown up around hunters and dressed game and helped pull arrowheads from the flanks of deer. She looked at the splinter. She looked at the blood. She did not flinch.</p>
+      <p>"Sit," she said. It was the first word she had ever spoken to him. "Down. Now, before you fall and make it worse and I have to drag you."</p>
+      <p>He sat.</p>
+      <p>She knelt beside him in the gold dust and went to work&mdash;pressing the wound, steadying his arm, calling over her shoulder for clean water and binding cloth in a voice that the storeroom servants somehow obeyed at once though she was only a child. Her hands were warm and certain on his skin. Up close she smelled of bowstring wax and morning air. And Kawalan, who a moment ago had wanted nothing in the world but to be worth watching, found that being looked at by her this closely was a different and far more terrifying thing entirely, and that his heart was doing something his sword-drills had never made it do.</p>
+      <p>He had to say something. The silence of a whole season was breaking and he had to put something into the gap, and what came out&mdash;because he was eleven, and because some part of him was already, hopelessly, the man he would become&mdash;was:</p>
+      <p>"So." He winced as she pressed the cloth tighter. "Is taking a wooden shard to the shoulder trying too hard? To get your attention, I mean."</p>
+      <p>Her hands went still.</p>
+      <p>She looked up at him. For one awful moment he was certain he had ruined it, that she would gather her bow and her dignity and leave him bleeding in the dust forever&mdash;</p>
+      <p>And then Zephyress laughed.</p>
+      <p>It was a small laugh, surprised out of her, quick and bright as a thrown stone skipping water. Her cheeks colored. She bent her head back to his shoulder so he wouldn't see her smiling, and she said, in a voice that was trying very hard to be stern and not managing it at all:</p>
+      <p>"Hold still, you idiot. You're getting blood on my sleeve."</p>
+      <p>But she was smiling. He'd seen it before she hid it. And he sat very still in the warm gold morning and let her tend him, the splinter forgotten, the wound forgotten, the small hard nameless thing in his chest gone strangely and completely quiet for the first time in his whole striving life&mdash;</p>
+      <p>&mdash;and somewhere in the courtyard, the long peace of Simulan went on, and a breeze moved through the old mango tree, and turned the leaves, and passed.</p>
+    </div>
+
+    <div class="editor-note">
+      <span class="tag">Editorial note</span>
+      Scenes to be written &mdash; the years between. Kawalan and Zephyress grow up and grow together, and after a long courtship they marry. A scene of their married life and the pregnancy &mdash; Kawalan feeling the baby kick for the first time, marveling that his son is already strong enough to kick his father, and the two of them choosing the name Malakas. Then the war: word arrives that Otras has invaded Sarili for its resources, and every able-bodied man is conscripted. Kawalan's farewell to a six-months-pregnant Zephyress, and his promise &mdash; a life of peace and stability on his return, the two of them growing old watching their son become a good man. He marches away. She gives birth after his departure and raises Malakas alone, teaching the children of the village, moving through Simulan like the gentle breeze she is named for, praying for a safe return she has no way of knowing will never come.
+    </div>
+
+    <div class="chapter-nav">
+      <a href="#cover"><span>Back</span>Cover</a>
+      <a class="next" href="#ch-letter"><span>Next</span>Barta's Letter</a>
+    </div>
+  </article>
+
+  <!-- PART TWO -->
+  <div class="part-divider" id="part-two" data-part="Part Two — The War">
+    <p class="num">Part Two</p>
+    <h2>The War</h2>
+    <div class="rule"></div>
+  </div>
+
+  <article class="chapter" id="ch-letter" data-part="Part Two — The War · Barta's Letter">
+    <h3>Barta's Letter</h3>
+    <div class="prose">
+      <p>The fire had burned down to embers, and most of the camp had gone quiet. Somewhere off in the dark a sentry coughed; somewhere else a man wept in his sleep, the way half of them did now and pretended not to in the morning. Kawalan sat with his back against a supply crate, a folded square of paper held close to catch the dying light.</p>
+      <p>Melos dropped down beside him with a groan, working a knot out of his shoulder. "Another one from the famous brother?"</p>
+      <p>"Came with the supply train this morning." Kawalan smoothed the creases. The paper had traveled a long way to reach him&mdash;the edges were soft with handling, the ink smudged in places by rain or river-water. "He's gone further west than anyone from Simulan's ever been. Listen to this."</p>
+      <p>He angled the page and read aloud, his voice low so it wouldn't carry.</p>
+      <p>"'Little brother. I have seen magic with my own eyes, and I do not have the words to make you believe me, so I will simply tell you and you may call me a liar when I come home. There is a town hidden in the hills where the wizards make fire dance on their fingertips like it costs them nothing. An old woman there showed me how the elements are not summoned but <em>remembered</em>&mdash;as though the air and the stone and the flame were all waiting to be called by their true names.'"</p>
+      <p>Melos had gone still beside him. "Fire on the fingertips," he murmured. "You believe it?"</p>
+      <p>"I believe Barta wouldn't waste paper on a lie." Kawalan turned the page over and kept reading. "'But the strangest thing I have seen is not the magic. It is the lord of that place&mdash;an elf, older than he looks, and he is <em>never</em> without a bird. A grey-and-white bird that rides on his shoulder and watches you the way a person watches you. They say it is a spirit beast. They say its name is About the Rain, and that wherever it goes, the harvest comes in heavy and the wells stay full. The villagers half-worship it.'"</p>
+      <p>"A bird with a name." Melos huffed a laugh, but it was a soft, wondering sound, not a mocking one. "And what does that even mean&mdash;'About the Rain'?"</p>
+      <p>"That's the part." Kawalan tapped the page. "Barta asked the same. The elf told him a spirit beast's name isn't chosen. It's not like naming a child. The name is&mdash;" he searched for the word Barta had used "&mdash;it's the <em>thing it was born out of.</em> The wound, or the wanting, or the loss that made it. About the Rain came from a drought, ages ago. From a whole people praying for water that wouldn't come. All that longing, all those years of it, somehow it&hellip; took a shape. And the shape was a bird."</p>
+      <p>Melos was quiet a moment, staring into the embers.</p>
+      <p>"Barta heard there's another," Kawalan went on. "Further south. A wizard-lord with a tortoise that follows him everywhere. They call it By the Warmth." He folded the letter carefully along its worn creases and tucked it inside his jerkin, near the heart, where he kept everything that mattered. "He says spirit beasts are rarer than magicians. Most people live a whole life and never see one. Each one's a legend with its own strange story. And nobody ever knows the full meaning of the names&mdash;just enough to guess at."</p>
+      <p>For a while neither of them said anything. The fire ticked and settled. Out beyond the picket line, the dark pressed close, and tomorrow the dark would have ten thousand Otras soldiers in it, and the day after that, the great battle that everyone could feel coming the way you feel a storm in your teeth.</p>
+      <p>Melos broke the silence first, and there was a grin in his voice now, the old easy warmth of him.</p>
+      <p>"So." He nudged Kawalan with an elbow. "If you and I live through all this&mdash;if we get to be grand old men with grand old reputations&mdash;and a spirit beast comes wandering out of the hills to follow us around. What'll they be named, you think? What's the great wound that made the legendary Kawalan Tigris?"</p>
+      <p>Kawalan laughed&mdash;a real laugh, the first in days, surprised out of him.</p>
+      <p>"Mine?" He spread his hands as though displaying a banner. "Mine had better be called <em>By the Victory.</em> Or <em>For the Long Life Ahead.</em> Something a man wants to hear." He grinned. "Something that means I got <em>everything</em>&mdash;the war won, the boy grown tall, you and me sitting on a porch somewhere lying about how dangerous it all was."</p>
+      <p>"For the Long Life Ahead." Melos shook his head, smiling. "That's not how it works and you know it. You don't get a spirit beast from a life that went <em>well.</em>"</p>
+      <p>"Then mine will be the exception." Kawalan clapped him on the back. "I've decided. I'm going home, Melos. I'm going to hold my son, and I'm going to grow so old and so boring that no self-respecting legend would come near me. That's the plan. That's the whole plan."</p>
+      <p>Melos laughed and let it go, and the two of them sat in the warm ruin of the fire and talked of porches and grandchildren and the carpentry shop Melos swore he'd open, until the embers went grey and the sentries changed and the last good night before the worst day of their lives slipped quietly away.</p>
+      <p>Neither of them said the obvious thing. Neither of them named the truth that hung in the cold air between the jokes: that no one wins a spirit beast from a life that went well. That the names come from wounds. That whatever the legend of Kawalan Tigris would one day be called, it would not be <em>By the Victory,</em> and it would not be <em>For the Long Life Ahead.</em></p>
+    </div>
+    <div class="chapter-nav">
+      <a href="#ch-courtyard"><span>Back</span>The Courtyard</a>
+      <a class="next" href="#ch-stand"><span>Next</span>The Final Stand</a>
+    </div>
+  </article>
+
+  <article class="chapter" id="ch-stand" data-part="Part Two — The War · The Final Stand">
+    <h3>The Final Stand</h3>
+    <div class="prose">
+      <p>Dawn came the color of a bruise, and with it, the war.</p>
+      <p>Kawalan stood at the head of his squad on the churned plain east of the river-fords, and watched the Otras lines come on. There were so many. The reports had said tens of thousands and the reports had not lied&mdash;the enemy filled the far ground from treeline to treeline, a slow black tide bristling with spears, and above them, between them, came the things that were not men. War-beasts on chains, scaled and horned, that bellowed and strained at their handlers. Riders on mounts that should not have existed. And here and there along the line, the bright unnatural flicker of the mages, the ones who could call fire from nothing and stone from still air, walking calm amid the slaughter-machines like priests at a butchering.</p>
+      <p>Sarili's host stretched out around him just as vast, just as terrible. Two great walls of the living, closing on open ground, and between them only the morning and the certainty that by nightfall most of them would not see another.</p>
+      <p>This was the last of it. Everyone knew. Two years the invasion had ground across the country, and it had come down to here&mdash;this plain, this day. If Sarili broke here, Sarili fell. If Sarili held, the Otras tide finally shattered. There was no third thing. There was no falling back to anywhere that mattered.</p>
+      <p>"Hold the line," Kawalan called to his men, walking the row, gripping a shoulder here, a forearm there. Frightened faces. Boys and farmers and fishermen with spears they'd learned to hold two years too late. "Stay together. Stay shoulder to shoulder and the line holds, and the line is the only thing that keeps you alive. You hear me? Don't chase glory. Don't chase anything. Just hold, and watch the man beside you, and we go home."</p>
+      <p>He didn't believe the last part the way he had two years ago. But they needed to hear it, so he said it, and he made it sound true.</p>
+      <p>Down the line, perhaps thirty yards off, Melos was doing the same with his own squad. Their eyes met across the gap. Melos lifted a hand&mdash;a small thing, two fingers off his spear-haft, the gesture they'd traded a hundred mornings now. <em>Still here. Still alive. See you after.</em> Kawalan returned it. On Melos's wrist, the bracelet caught the bruised light. On Kawalan's chest, under the armor, the necklace lay warm against his heart, and he thought&mdash;as he thought every morning now&mdash;<em>after this one. After this one we go home, and I hold my son, and the war is a story we tell badly on a porch.</em></p>
+      <p>Then the horns sounded, low and shaking, and the black tide broke into a run, and there was no more time for thinking.</p>
+      <p>The two hosts struck each other like a sea hitting a cliff.</p>
+      <p>The noise alone nearly unmade him&mdash;the crash of ten thousand men meeting ten thousand men, the shriek of metal, the screaming, gods, the <em>screaming</em>, men and beasts and the dying all at once until the sound stopped being sound and became a pressure, a thing that lived inside the skull. The line bowed. Held. Bowed again. Kawalan's world narrowed to the spear-length in front of him: parry, thrust, shove, a face contorted in hate, then gone; another; another. The earth turned to red mud beneath their feet. Somewhere a war-beast had broken loose and was wading through the press, flinging men like straw, and somewhere a mage's fire went up in a roaring orange column and a dozen voices ended at once.</p>
+      <p>"Forward!" The order came down the line&mdash;push, drive the wedge, break their center before the beasts broke ours. Kawalan took it up and roared it to his squad: "Forward! With me! <em>Forward!</em>" And they went, the whole bristling line of them grinding deeper into the enemy, into the heart of it, stepping over the fallen of both sides, and thirty yards away he could hear Melos roaring the same, the two squads driving in parallel toward the smoke-wreathed center where the worst of the fighting boiled.</p>
+      <p>He lost track of time. There was only the next man, the next thrust, the burning in his arms, the mud, the blood not all his own. He took a spear-graze across the ribs and barely felt it. A boy from his village&mdash;Tomas, sweet Tomas who'd never hurt a soul before this war&mdash;went down beside him with a cry, and there was no time to do anything but step into the gap he left and keep the line whole. Forward. Forward. Deeper into the dark heart of the battle, where the air itself was beginning to change.</p>
+      <p>Because the mages had found each other.</p>
+      <p>Kawalan felt it before he understood it&mdash;a wrongness in the air, a pressure behind the eyes, the fine hairs rising all along his arms. Ahead, through a rent in the smoke, he saw them: two figures, far apart across the ruined center, and the world bending around each of them.</p>
+      <p>On the Sarili side, the grand magician had raised both arms to the sky, and the <em>ground itself</em> was answering&mdash;the earth heaving up, gathering, rising in a vast tide of stone and soil that took a shape as it climbed, a shape with a great maned head and a deep stone roar, an upheaval in the form of a colossal lion, mountains' worth of earth rearing back to strike.</p>
+      <p>And across from it, on the Otras side, the enemy's grand magician had called the other thing&mdash;a blaze, a living inferno coiling up out of nothing, twisting and lengthening into a serpent of pure raging fire, vast as the lion, its body a river of flame, its head drawn back to lunge.</p>
+      <p>Lion of earth. Serpent of fire. Rising over the battlefield like two gods deciding the fate of small men.</p>
+      <p>Kawalan stopped. Every soldier near him stopped, living and dying both, faces turning up toward the impossible things in the sky. <em>This is what Barta saw,</em> some distant part of him thought, absurd, calm. <em>This is the manifestation of the elements. The air and the stone and the flame, called by their true names. He told me. He told me and I didn't&mdash;</em></p>
+      <p>"KAWALAN!"</p>
+      <p>Melos's voice. He turned toward it.</p>
+      <p>Melos was already moving. He had seen it a half-second before Kawalan&mdash;seen the lion and the serpent rear to their full height directly above the place where the two squads had driven, seen the inevitable collision about to happen <em>right there</em>, over their heads, in the dead center of everything. And Melos was not running away.</p>
+      <p>He was running <em>toward</em> Kawalan.</p>
+      <p>The two titans struck.</p>
+      <p>Lion and serpent slammed together in the air above the battlefield, earth and fire annihilating each other in a single instant, and the world ended in white&mdash;</p>
+      <p>Melos reached him. Threw himself bodily into the space between Kawalan and the blast, arms wide, mouth open around a word Kawalan would never hear&mdash;</p>
+      <p>&mdash;and there was light, and there was a wall of force like the hand of the sky coming down, and the last thing Kawalan Tigris ever saw with living eyes was his best friend's back, charred clothes and bloodstained shoulders, flung wide to shield him from the end of the world.</p>
+      <p>Then nothing.</p>
+      <p>Then nothing at all.</p>
+    </div>
+
+    <p class="scenebreak">&middot; &middot; &middot;</p>
+
+    <div class="prose">
+      <p>He came to in silence.</p>
+      <p>That was the wrongness his mind seized on first, before anything else: the <em>silence.</em> The battle that had been a pressure inside his skull, the screaming, the crash and roar of it&mdash;gone. All gone. There was only a high faint ringing, and beneath it, a quiet so total it felt like a held breath.</p>
+      <p>Kawalan opened his eyes to a world made of dirt.</p>
+      <p>It was everywhere. Falling from the sky in a slow brown drift, like snow, like ash, settling over everything. The ground had been torn open and flung about&mdash;great clods of earth, pale boulders heaved up from the deep, the whole center of the battlefield churned into something that no longer looked like ground at all. And the bodies. Bodies past counting, half-buried, flung and broken, Sarili and Otras tangled together in the ruin where the lion and the serpent had met and unmade each other and everything around them.</p>
+      <p>He was on his back. He didn't remember falling. His body felt strange&mdash;light, and far away, and when he sat up it was too easy, no pain, no weight, as though he'd shed something heavy without noticing.</p>
+      <p>He got to his feet in the drifting dirt. The ringing in his ears began to fade, and with the silence came the image of Melos.</p>
+      <p>Kawalan turned, searching. "Melos?"</p>
+      <p>The dirt fell. No one answered. And the words came anyway, surfacing from somewhere he couldn't name, until without deciding to he heard himself speak them aloud, low and bewildered: "It should have been me."</p>
+      <p>He didn't know why he'd said it. He shook it off. He turned, scanning the ruin for his friend, for any of his squad, for anything living in all that broken ground&mdash;</p>
+      <p>&mdash;and his eyes found the body.</p>
+      <p>It lay a few paces off, in the churned earth where the blast had been worst. The top half of it was gone from sight, pinned and buried beneath a heavy fall of soil and a great pale boulder that had come down across the chest and head. Only the lower half lay free. One arm was flung out across the dirt, pale and still, the hand open. And on the wrist&mdash;</p>
+      <p>Kawalan's breath caught.</p>
+      <p>On the wrist was a bracelet. The protection-charm of Simulan, simple and worn, the cord of it dark against the pale skin. <em>His</em> bracelet. The one he'd pressed into Melos's hand before the battle, the betrothal-gift, the token for a daughter not yet born. The token of comradeship that would outlast any war, that Melos had been wearing as he threw himself into the path of the blast&mdash;</p>
+      <p>"No," Kawalan said.</p>
+      <p>He went to his knees beside the half-buried body. He could not see the face. He did not need to see the face; the bracelet told him everything, the comrade crushed beneath the earth, a man who had been standing with his men at the center of the battlefield when the world went white.</p>
+      <p>"No, no, no&mdash;Melos&mdash;"</p>
+      <p>He reached for the buried body and his hands seemed to find no purchase, seemed to pass strangely over the dirt, but he was weeping too hard to mark it. His best friend. The carpenter who'd never wanted any of this. The man who'd traded gifts against a future of porches and grandchildren, who'd joked that you don't earn a spirit beast from a life that went well. Dead. Buried in the ruin of a battlefield, shielding Kawalan with his own body, with his own life, <em>it should have been me, you always ran for someone, you were always running for me</em>&mdash;</p>
+      <p>"Why," Kawalan choked. "Why would you&mdash;you fool, you <em>fool</em>, why would you do that&mdash;"</p>
+      <p>Kawalan knelt and wept over the buried body.</p>
+      <p>And when at last he rose&mdash;numb, hollow, the dirt still falling&mdash;he was left with only the silence of a ravaged battlefield.</p>
+      <p>He fixed his heart on a single point, far to the northeast.</p>
+      <p><em>Home,</em> he thought. <em>I have to get home. I have to get home to Zephyress. To my son.</em></p>
+    </div>
+
+    <div class="chapter-nav">
+      <a href="#ch-letter"><span>Back</span>Barta's Letter</a>
+      <a class="next" href="#ch-village"><span>Next</span>The Soldiers' Village</a>
+    </div>
+  </article>
+
+  <!-- PART THREE -->
+  <div class="part-divider" id="part-three" data-part="Part Three — The Long Way Home">
+    <p class="num">Part Three</p>
+    <h2>The Long Way Home</h2>
+    <div class="rule"></div>
+  </div>
+
+  <article class="chapter" id="ch-village" data-part="Part Three — The Long Way Home · The Soldiers' Village">
+    <h3>The Soldiers' Village</h3>
+    <div class="prose">
+      <p>The lights were the first thing he saw.</p>
+      <p>Kawalan didn't remember deciding to walk toward them. One moment he was stumbling through the dark with that crushing weight in his chest, his body aching as though every bone had been ground against stone&mdash;and the next, there were lanterns. Warm and golden, strung between timber posts. The smell of roasting meat. The low thrum of a drum, and voices raised in song.</p>
+      <p>A camp. A war camp.</p>
+      <p>He knew it the way he knew his own hands. The way the spears were stacked in tripods near the cookfires. The way the men sat with their backs to the wall and their weapons within reach even in celebration. The mismatched armor, the bandaged limbs, the particular laughter of people who had survived something and were not sure they'd survive the next thing. These were soldiers. <em>His</em> kind.</p>
+      <p>Someone pressed a cup into his hand. He didn't see who. A woman with a scar across her brow and forearms like braided rope clapped him on the shoulder and shouted something he didn't catch over the music. He laughed anyway. It felt good to laugh. It felt good to be <em>here</em>, among people who understood, who carried the same shadows behind their eyes.</p>
+      <p>"You look half-dead, brother," a man said, grinning, refilling Kawalan's cup though he didn't remember drinking from it. "Sit. Eat. Tomorrow's tomorrow."</p>
+      <p>He sat. He ate, or thought he did. The faces around the fire blurred and sharpened, blurred and sharpened. He recognized none of them and all of them. That one's laugh&mdash;hadn't he heard it before, in some trench, some forward camp? That woman sharpening her blade&mdash;hadn't she shared his ration once, on a cold night that smelled of rain and iron?</p>
+      <p>He couldn't place a single one. But the <em>feeling</em> of them was as familiar as breathing. They were soldiers, every one&mdash;strong men and hard-handed women, warriors and a scattering of magicians, and as he watched them drink and boast and check their blades he understood with a quiet certainty that they were not resting. They were readying. Every one of them was bound for war.</p>
+      <p>Then&mdash;across the fire, through the smoke&mdash;a back. Broad shoulders, dark hair cropped short the way Melos always wore it so it wouldn't catch in his helmet straps. The set of him. The tilt of his head as he leaned in to hear a joke.</p>
+      <p>Kawalan was on his feet before he understood he'd moved.</p>
+      <p>"Melos&mdash;"</p>
+      <p>He pushed through the crowd, the cup falling from his hand, the song roaring in his ears. He reached the man and seized his shoulder and <em>turned</em> him&mdash;</p>
+      <p>A stranger's face. Older. Heavier. A jagged scar where Melos had none. The man blinked at Kawalan with mild confusion, said something Kawalan couldn't hear, and turned back to his drink.</p>
+      <p>Of course. Of course it wasn't him. Melos was&mdash;</p>
+      <p>The thought wouldn't complete. It slid away from him like water through fingers.</p>
+      <p>Someone showed him to a room&mdash;a low timber lean-to with a straw pallet. He didn't remember asking for it. As he ducked under the doorway, the celebration crested behind him, and one voice rang out clearer than all the rest, lifting a cup to the rafters:</p>
+      <p>"Here's to staving off those Otras bastards! May they choke on Sarili dirt!"</p>
+      <p>A roar of approval. Kawalan smiled in the dark. <em>Good,</em> he thought. <em>Good. We're still fighting. We haven't lost.</em></p>
+      <p>He lay down. He closed his eyes.</p>
+    </div>
+
+    <p class="scenebreak">&middot; &middot; &middot;</p>
+
+    <div class="prose">
+      <p>Pain woke him.</p>
+      <p>Not the dull ache of before but a <em>crushing</em>&mdash;an immense, suffocating weight pressing down across his chest and skull, as though the whole earth had collapsed onto him. He couldn't breathe. He couldn't see. For one endless moment he was buried, drowning in soil and the dark, and a sound came out of him that wasn't quite a scream&mdash;</p>
+      <p>And then it was gone.</p>
+      <p>He was sitting upright on the straw pallet, gasping, drenched in something that wasn't sweat because he didn't seem to sweat anymore. Grey light leaked through the gaps in the timber. Morning.</p>
+      <p>Silence.</p>
+      <p>No drums. No song. No smell of cookfires.</p>
+      <p>Kawalan stood on unsteady legs and pushed through the doorway.</p>
+      <p>The camp was empty.</p>
+      <p>Not <em>quiet</em>&mdash;empty. The lean-tos sagged, their timber grey and split with weather. The fire pits were cold, the ash packed down hard and crusted, scattered with the husks of dead leaves. The spear-tripods he'd seen the night before were gone, or had never been there. Where the celebration had roared, there was only wind moving through abandoned structures and the creak of a loose board somewhere.</p>
+      <p>He knelt by the nearest fire pit and pressed his palm to the ash. Cold. Cold all the way through. He found the ruts where cart wheels had cut into the earth&mdash;but the mud had hardened to stone, the tracks at least a week old. Maybe more.</p>
+      <p>No one had been here. No one had been here in a long time.</p>
+      <p>A chill walked up his spine that had nothing to do with the morning air. He looked back at the lean-to where he'd slept, half-expecting it to be gone too, to find he'd lain on bare ground all night. It was still there. But it looked as though no one had touched it in seasons.</p>
+      <p><em>A dream,</em> he told himself. The word felt thin. <em>I was exhausted. I dreamed it. The pain, the people&mdash;a dream.</em></p>
+      <p>But his gut said otherwise. His gut, which had kept him alive through two years of war, said <em>leave.</em> Said <em>something is wrong here, and you do not want to learn what.</em></p>
+      <p>He didn't argue with it. He gathered himself, fixed the direction home in his mind&mdash;<em>north and east, toward the mountains, toward Simulan</em>&mdash;and walked out of the dead camp without looking back.</p>
+      <p>The unease followed him.</p>
+      <p>It was in the wind, which had picked up to a low moan through the trees. It was in the way the light never seemed to warm. And then, faint at first and then unmistakable, it was in the <em>sound</em>&mdash;carried on the wind from somewhere behind him, somewhere out in the wild country he'd left: a roar. Long and guttural and full of hunger. The cry of some great beast, answered by what might have been a scream&mdash;human or animal, he couldn't tell.</p>
+      <p>Kawalan's hand found the hilt of his sword. He did not run. But he walked faster, and the necklace at his throat&mdash;Melos's necklace&mdash;seemed to grow warmer against his skin, as though it remembered a promise.</p>
+    </div>
+    <div class="chapter-nav">
+      <a href="#ch-stand"><span>Back</span>The Final Stand</a>
+      <a class="next" href="#ch-forest"><span>Next</span>The Forest</a>
+    </div>
+  </article>
+
+  <article class="chapter" id="ch-forest" data-part="Part Three — The Long Way Home · The Forest">
+    <h3>The Forest</h3>
+    <div class="prose">
+      <p>Days bled together.</p>
+      <p>Kawalan walked. He didn't tire the way he should have, didn't hunger the way he should have, and somewhere in the back of his mind a small voice noted this and was ignored. He was too tired in a different way&mdash;a bone-deep, soul-deep exhaustion that no sleep touched. He followed his gut northeast, toward home, toward Zephyress and the child who must surely be born by now. A son. <em>Malakas.</em> The thought of the name was a lantern in the dark, and he walked toward it.</p>
+      <p>But he was not alone.</p>
+      <p>He couldn't have said when the feeling began. Only that it grew. The prickle at the back of the neck. The sense of eyes between the trees. Twice he'd spun, sword half-drawn, to find nothing but swaying branches and the long shadows of dusk. Paranoia, he told himself. The mind playing tricks after too long alone.</p>
+      <p>But his gut, again, said otherwise.</p>
+      <p>When the light failed on the third day, he made camp in a hollow ringed by brush, with a fallen log at his back so nothing could come at him from behind. Old soldier's habit. He didn't light a fire&mdash;some instinct warned against it. He simply sat, sword across his knees, and watched the dark thicken between the trees.</p>
+      <p>The wind rose.</p>
+      <p>It came suddenly, a cold gust that set the whole forest hissing, every leaf and branch rattling at once. The brush around his hollow shuddered. And beneath the wind, threading through it, came a sound that turned his blood to meltwater:</p>
+      <p><em>Whispers.</em></p>
+      <p>Dry and rasping, like the last breath leaving a dying man. Not words at first&mdash;and then, horribly, words:</p>
+      <p><em>"There you are."</em></p>
+      <p>Three figures rose from behind the brush.</p>
+      <p>They were wrong. That was the first thing Kawalan understood&mdash;wrong in a way his eyes refused to focus on. Wrapped head to foot in tattered dark cloth that moved like smoke at the edges, faceless, their hands ending in blades that caught no light. They did not walk so much as <em>pour</em> forward, low and hungry, and the whisper came from all three at once though none of them had mouths.</p>
+      <p><em>"There you are. There you are. Lost little thing&mdash;"</em></p>
+      <p>The lead figure lunged.</p>
+      <p>Kawalan threw himself sideways off the log, the blade hissing through the space where his throat had been, and came up in a crouch with his sword raised. Two years of war moved his body before his mind caught up. <em>Three of them. Open ground behind. Log to the left. Move, move&mdash;</em></p>
+      <p>The second figure was already circling wide to flank him.</p>
+      <p>And then the brush <em>behind</em> Kawalan&mdash;behind him, where nothing should have been able to approach unseen&mdash;exploded outward in a roar that shook the hollow.</p>
+      <p>A tiger.</p>
+      <p>Enormous, far larger than any beast Kawalan had ever seen, its fur the deep burnished gold of dying firelight, its eyes blazing in the dark. It came over the fallen log in a single bound and slammed into the lead figure with the force of a falling tree. The figure shrieked&mdash;a sound like tearing cloth&mdash;as the tiger's jaws closed on it and <em>shook</em>, and where the creature's smoke-flesh tore, no blood came, only a guttering darkness like a snuffed candle.</p>
+      <p>The other two recoiled in shock.</p>
+      <p>Kawalan did not waste it.</p>
+      <p>He surged forward and drove his blade into the nearest figure before it could recover, the steel punching through the tattered cloth and out the other side. The figure convulsed, clawing at him with blades that scored his forearm&mdash;he felt the cold of it more than the pain&mdash;and then it came apart in his hands, dissolving into ribbons of black smoke that the wind snatched away.</p>
+      <p>He spun toward the third.</p>
+      <p>It had stopped. Frozen. And though it had no face, Kawalan felt its gaze move from him, to the tiger, to its two dissolving companions&mdash;and felt it <em>understand</em> it had made a mistake.</p>
+      <p>The whisper came one last time, low and venomous, retreating into the trees:</p>
+      <p><em>"We will meet again."</em></p>
+      <p>And it was gone, swallowed by the dark, leaving only the settling wind and the sound of Kawalan's own ragged breathing.</p>
+      <p>He turned.</p>
+      <p>The tiger stood over the remains of the lead figure, breath steaming, golden eyes fixed on him. Up close it was even more massive, more impossible. The firelight color of it seemed to shift and breathe. And it was watching him with an intelligence that made the hair on Kawalan's arms stand up.</p>
+      <p>He raised his sword and leveled it at the beast.</p>
+      <p>"Back!" His voice cracked. "Or you're next!"</p>
+      <p>The tiger did not so much as flinch. When it spoke, its voice was low and unhurried, rolling out of that great chest like distant thunder.</p>
+      <p>"Calm down. You won't die here. I'm not your enemy."</p>
+      <p>Kawalan's grip faltered. The blade dipped an inch.</p>
+      <p>"You can <em>talk.</em>" The words came out a whisper. Then, harder, the sword snapping back up: "You can talk&mdash;you're one of them!"</p>
+      <p>"One of what?" the tiger asked mildly.</p>
+      <p>"A spirit beast!"</p>
+      <p>The tiger regarded him for a long moment. Then, with something that might have been amusement: "If that makes you feel better&mdash;sure."</p>
+      <p>"What does that <em>mean?</em>"</p>
+      <p>"Matters not." The tiger took a step closer, unbothered by the sword between them. "It seems you don't want your journey to end. So sheathe your weapon, Kawalan."</p>
+      <p>He went very still.</p>
+      <p>"How do you know my name?"</p>
+      <p>"I know many things." The tiger's eyes held his, ancient and patient. "As do you. Even if you're not completely aware of it yourself."</p>
+      <p>"What do you mean by that?"</p>
+      <p>The tiger said nothing. It only stared&mdash;into him, <em>through</em> him, those golden eyes steady and depthless&mdash;and in that silence something stirred at the bottom of Kawalan's mind. A recognition with no memory attached. A name he hadn't been told but somehow already knew, rising up through the dark water of him like a drowned thing surfacing.</p>
+      <p>His sword arm lowered. The words left him in a breath, barely audible:</p>
+      <p>"Of the Loss..."</p>
+      <p>The tiger inclined its great head.</p>
+      <p>"You may call me as you wish." It turned, tail sweeping the air, and looked back over its shoulder. "Either way&mdash;it seems you'll get no rest as you are now. Let's continue your journey."</p>
+      <p>Kawalan stood rooted, sword forgotten at his side. "How do you know where I'm going?"</p>
+      <p>The tiger only looked at him. That same silent, knowing gaze.</p>
+      <p>Kawalan let out a long breath and sheathed his blade.</p>
+      <p>"Never mind..."</p>
+    </div>
+    <div class="chapter-nav">
+      <a href="#ch-village"><span>Back</span>The Soldiers' Village</a>
+      <a class="next" href="#ch-river"><span>Next</span>The River of the Drowned</a>
+    </div>
+  </article>
+
+  <article class="chapter" id="ch-river" data-part="Part Three — The Long Way Home · The River of the Drowned">
+    <h3>The River of the Drowned</h3>
+    <div class="prose">
+      <p>They came down out of the hills on a grey afternoon, and there was the river.</p>
+      <p>It was wide and slow and the color of old pewter, moving without sound between banks of pale stone. The far side was lost in a low mist that didn't lift no matter how long Kawalan stared at it. Of the Loss had gone quiet beside him&mdash;quieter than usual, his great head low, his golden eyes fixed on the water with something that might have been wariness.</p>
+      <p>"We cross here?" Kawalan asked.</p>
+      <p>The tiger didn't answer. His ears had flattened.</p>
+      <p>Then the mist on the far bank stirred&mdash;and there were people in it.</p>
+      <p>Kawalan's breath stopped. He knew them. He <em>knew</em> them. There was Dakila, who'd carried the squad's banner and sung filthy marching songs in a beautiful tenor; there was the brothers from the fishing villages whose names he'd never been able to keep straight; there was the boy&mdash;gods, the <em>boy</em>, the one who'd been too young, who'd cried the first night and sworn Kawalan to secrecy about it. A dozen of them. Two dozen. His men. His dead men, standing on the far bank in the mist, whole and unhurt, watching him with calm and patient faces.</p>
+      <p>"Captain," one of them called. The word carried across the water though no one had raised their voice. "Captain, you made it."</p>
+      <p>Kawalan took a step toward the bank. "You're&mdash;how are you&mdash;"</p>
+      <p>His eyes raked across them, faster and faster, counting faces, <em>searching</em>. Dakila. The brothers. The boy. The big quiet man who'd shared his fire. He knew them all, every one, and that was the problem, because the one face he was looking for wasn't among them. He searched the line again, and again, his chest tightening, his lips already shaping the name&mdash;</p>
+      <p><em>Melos. Where is Melos. Why isn't he&mdash;</em></p>
+      <p>"What are you looking for, Captain?"</p>
+      <p>It was Dakila who spoke. He was smiling, gentle and sad, and as he spoke his gaze slid sideways&mdash;deliberate, unhurried&mdash;down and away from Kawalan's face, drawing Kawalan's eyes with it like a hand on his jaw turning his head.</p>
+      <p>"Maybe," Dakila said softly, "you're looking in the wrong place."</p>
+      <p>Kawalan's gaze followed the dead man's eyes down&mdash;</p>
+      <p>&mdash;to the river.</p>
+      <p>There, beneath the pewter surface, was a shape. A vague dark outline, suspended in the grey water as though it had been sinking forever and never reached the bottom. The shoulders. The set of the head. The shape of a man Kawalan would have known anywhere, in any light, under any water.</p>
+      <p>"Melos," he whispered.</p>
+      <p>A hand was reaching up.</p>
+      <p>From the depths of the figure, a single hand stretched toward the surface&mdash;slow, yearning, fingers spread&mdash;rising up through the grey toward the light and the air and Kawalan. And there, at the wrist, beneath the water's skin, a gleam of silver caught what little light there was. A bracelet. <em>His</em> bracelet, the one he'd pressed into Melos's hand before the battle, the one Melos had been wearing when&mdash;</p>
+      <p>"Melos," Kawalan said again, and his own hand was rising now, lifting toward the water, reaching for the hand reaching for him.</p>
+      <p>He was perhaps four feet from the bank. He didn't remember the distance closing, but it was closing. The longing pulled him forward the way the tide pulls a drowning man, soft and total and impossible to argue with. <em>It's him. It's really him. I can reach him. After everything, I can still&mdash;</em></p>
+      <p>Three feet. Two.</p>
+      <p>The hand rose higher, breaking toward the surface, the silver at its wrist brightening.</p>
+      <p>A foot away now. Kawalan went to his knees at the water's edge, his arm outstretched, fingertips trembling toward the surface where Melos's fingertips trembled up to meet them. So close. A hand's breadth. The longing was a roar in his ears, drowning out everything, drowning out the small cold voice that had kept him alive for two years and was screaming now, far away, <em>wrong, wrong, this is wrong&mdash;</em></p>
+      <p>The hand broke the surface.</p>
+      <p>And the flesh came apart.</p>
+      <p>Where Melos's hand pierced the skin of the water, the illusion of it dissolved&mdash;the warm brown skin, the calloused carpenter's fingers, all of it sloughing away into the wind like ash off a burnt log&mdash;and what continued up out of the river was <em>bone.</em> A skeletal hand, grey and dripping, still reaching, the silver gleam at its wrist nothing now but a trick of the dead light. The fingers stretched the last inch toward Kawalan's&mdash;</p>
+      <p>&mdash;and Kawalan's body was <em>ripped</em> backward off the bank.</p>
+      <p>Teeth in his collar, the wrench of a great neck, and he was flung sprawling across the stone three full body-lengths from the water as Of the Loss roared over him, every hair on end, his voice a thing of fury and grief:</p>
+      <p><em>"Foolish! Not even knowing what is lost and what remains!"</em></p>
+      <p>In the river, the figure that was not Melos rose.</p>
+      <p>It came up out of the water and kept rising, the last of the borrowed flesh streaming off it into nothing, until it floated above the pewter surface&mdash;a shape of shadow and bone and hunger, the same wrongness Kawalan had felt in the forest, the same dry rasp beneath its shriek. On the far bank, his comrades were already going: Dakila, the brothers, the boy, all of them thinning and scattering like dust off a windowsill, their patient faces the last thing to fade, until the mist held nothing at all.</p>
+      <p>It had never held anything at all.</p>
+      <p><em>"It is inevitable!"</em> the figure screeched, and lunged&mdash;</p>
+      <p>A paw the size of a war-shield came down on it.</p>
+      <p>Of the Loss struck the figure out of the air so hard that it <em>bounced</em>&mdash;slammed into the stone bank and skipped off it like a flung stone off a pond&mdash;and in that half-second of its tumbling, Kawalan moved.</p>
+      <p>He didn't decide to. That was the thing he would turn over and over afterward and never understand. His body simply <em>went</em>, faster than thought, faster than grief, up off the ground and across the stone with his sword already drawn, and he drove the blade through the center of the shadowy figure and pinned it screaming to the earth. His arm was a blur. His feet had crossed the distance before his mind knew he'd risen. It did not feel like him. It felt like something else wearing him, some furious refusal that lived in his bones and would not, <em>would not</em> be dragged down into that grey water&mdash;</p>
+      <p>&mdash;and down his face, as the figure came apart beneath his sword and unraveled into smoke and silence, a single tear was rolling.</p>
+      <p>He didn't know where it came from. He hadn't felt it begin. He knelt over the dissolving dark with his blade buried in the stone and his chest heaving, and the tear traced down his cheek and fell, and he could not have said whether it was the strange lightning in his limbs&mdash;that reflex that seemed to <em>reject death itself</em>&mdash;or the tear that was the more foreign thing. Both felt borrowed. Both felt like they belonged to a man he was and wasn't.</p>
+      <p>The wind died.</p>
+      <p>The river ran on, slow and grey and empty, the way it must have run for a very long time.</p>
+      <p>Kawalan stayed on his knees a moment longer. Then he drew his sword from the stone&mdash;it came free without a mark, as though the ground had never been struck&mdash;and he wiped his face with the back of his wrist, and he did not look at the water again.</p>
+      <p>Of the Loss stood close beside him, breath steaming, golden eyes no longer furious. Only sorrowful. Only watching.</p>
+      <p>"...It looked like him," Kawalan said. His voice came out cracked and small. "It looked exactly like him."</p>
+      <p>"I know," the tiger said quietly.</p>
+      <p>"Why would it&mdash;" He stopped. His hand had risen to his throat without his telling it to, and his fingers closed around the necklace there, Melos's necklace, warm against his skin as it always was, the one true-feeling thing in this whole drowned grey country. He held it like an anchor. "Why does it know what I've lost?"</p>
+      <p>Of the Loss was silent for a long moment.</p>
+      <p>"Because you carry it openly," the tiger said at last. "It is the easiest thing in the world to see." He turned, and looked upriver, where in the far distance the land began to climb again toward mountains Kawalan was beginning, with a terrible mounting ache, to recognize. "Come. We're close now. Whatever waits at the end of this, it is closer than the things behind us."</p>
+      <p>Kawalan rose.</p>
+      <p>He followed the tiger along the bank, the necklace warm in his fist, and behind them the River of the Drowned closed over its secret and said nothing, and the mist on the far shore held no one at all, and had never, not once, held anyone he could reach.</p>
+    </div>
+    <div class="chapter-nav">
+      <a href="#ch-forest"><span>Back</span>The Forest</a>
+      <a class="next" href="#ch-home"><span>Next</span>The Journey Back</a>
+    </div>
+  </article>
+
+  <!-- PART FOUR -->
+  <div class="part-divider" id="part-four" data-part="Part Four — Home">
+    <p class="num">Part Four</p>
+    <h2>Home</h2>
+    <div class="rule"></div>
+  </div>
+
+  <article class="chapter" id="ch-home" data-part="Part Four — Home · The Journey Back">
+    <h3>The Journey Back</h3>
+    <div class="prose">
+      <p>He smelled the cooking-smoke of Simulan before he saw the rooftops, and whatever moved in him now, where his heart had been, lifted so hard it hurt.</p>
+      <p>There&mdash;the bend in the path he'd walked ten thousand times. The crooked fence post his father had never fixed. The well, the smithy, the long low roofs catching the last gold of the day. Two years. Two years of mud and blood and a country of ghosts, and he had <em>made it.</em> Tears blurred the gold light to streaks. He laughed, a wet and broken sound, and walked faster.</p>
+      <p>An old woman sat shelling beans in her doorway. He knew her&mdash;Inang Lira, who'd swatted him with a broom as a boy for stealing mangoes. He lifted a hand to her. She did not look up.</p>
+      <p>Two children ran past him down the lane, close enough to touch, shrieking with laughter. Neither so much as glanced at the filthy soldier weeping in the road. <em>Busy,</em> he thought. <em>Dusk. I'm changed. Two years changes a man.</em> He told himself these things and walked on, and the wrongness lapped at the edges of his joy like cold water he refused to feel, because there&mdash;just there, past the apricot tree&mdash;</p>
+      <p>&mdash;was home.</p>
+      <p>And in the doorway, in the amber light, stood Zephyress.</p>
+      <p>He stopped breathing.</p>
+      <p>She was thinner than he remembered, and older, the softness of girlhood worn down to something stronger and sadder. There were threads of grief in the set of her shoulders, in the careful way she held herself, like a woman carrying a stone she'd learned to bear. She was more beautiful than anything in the world.</p>
+      <p>And in her arms, settled on her hip, was a child.</p>
+      <p>A boy. Dark-haired, grave-eyed, with the shape of Kawalan's own brow. Two years old, give or take. A son he had never seen. A son born after he'd marched away, whom he had never once held, whose first cry he had not heard, whose name he had only ever spoken to the dark of a war-camp like a prayer.</p>
+      <p><em>Malakas.</em></p>
+      <p>"Zephyress," he breathed.</p>
+      <p>She did not turn.</p>
+      <p>But the boy did.</p>
+      <p>Malakas lifted his head from his mother's shoulder and looked&mdash;directly, unerringly&mdash;at Kawalan. His small face went round with that grave, open wonder only the very young possess. And he reached out one fat little hand across the gold evening air, fingers spreading toward the weeping soldier in the lane, and he said it, clear and certain:</p>
+      <p>"Dada."</p>
+      <p>Zephyress's eyes filled at once. She thought he was reaching at the air, at the carved likeness she'd surely shown him a hundred times, at the stories she must have told him every night of a father he'd never know. She pressed her lips to his dark hair and held him closer, and her voice came out thick.</p>
+      <p>"Yes, my love," she whispered. "Dada."</p>
+      <p>Kawalan broke.</p>
+      <p>He crossed the last of the distance without knowing he moved, and he gathered them into his arms&mdash;both of them, wife and son, everything he had bled for, everything he had crossed a drowned grey world to reach&mdash;and he buried his face in her hair and <em>held on.</em></p>
+      <p>"I'm home," he sobbed. "Zephyress. Malakas. I'm home, I made it, I'm finally home&mdash;"</p>
+      <p>He could feel them. The warmth of them. The realest thing in all the long dark.</p>
+      <p>And in the circle of his arms, Zephyress went very still.</p>
+      <p>Her own tears spilled over. She held her son against a sudden warmth in the cold dusk she could not name, and she closed her eyes, and she said it&mdash;soft and broken, to the doorway, to the gods, to no one at all:</p>
+      <p>"I wish he were here."</p>
+      <p>The world stopped.</p>
+      <p>Kawalan pulled back. "I <em>am</em> here." He said it smiling, half-laughing through his tears, confused. "Zephyress&mdash;I'm right here. I'm holding you. Look at me. I came back, I kept my promise&mdash;"</p>
+      <p>She did not look at him. Her gaze passed through where his eyes were and settled on the empty middle distance of her own grief. Only the boy watched him. Only the boy.</p>
+      <p>"Zephyress." Quieter. The cold creeping in at last, where he could no longer keep it out. "Zephyress, why won't you <em>look</em> at me&mdash;"</p>
+      <p>And it all came back. All of it, in a single drowning rush.</p>
+      <p>The crushing weight that had woken him in the dead camp&mdash;the weight of earth, of stone. The hunger that never came, the exhaustion no sleep could touch. The sword that left the rock without a mark. The comrades on the far bank who'd known his name, who'd called him <em>Captain</em>, every one of them dead and <em>waiting for him.</em> The tiger that had come from behind him, where nothing living could approach. <em>Not even knowing what is lost and what remains.</em> Melos's voice in his head&mdash;<em>it should have been me.</em> The half-buried body in the broken ground, the bracelet on its wrist, that he had looked at and grieved over and never, not once, recognized.</p>
+      <p>A light, beside him. Soft and gold and growing.</p>
+      <p>He turned. Of the Loss stood in the amber doorway, and the tiger was glowing&mdash;a deep warm gold welling up from within the burnished fur, the firelight color it had always been&mdash;and its eyes, fixed on him, held a grief so old and so tender that Kawalan understood, before he understood anything else, that the tiger had <em>known.</em> Had always known. Had walked every step of that grey country with the truth held quiet in its mouth.</p>
+      <p>The gold swelled, and the doorway dissolved, and Kawalan was somewhere else.</p>
+      <p><em>Somewhen else.</em></p>
+      <p>The battlefield, after. The terrible silence where the lion and the serpent had screamed. Dirt falling like brown snow from a ruined sky. Bodies past counting, broken earth as far as the smoke allowed. And there, in the churned ground&mdash;a body. Half-buried, its top pinned beneath a fall of heavy soil and a great pale boulder, only the lower half free, one bare arm flung across the dirt.</p>
+      <p>His spirit stood over it, weightless and untethered, and looked down, and did not know whose body it was. Could not see the crushed and buried face. Saw only the flung-out arm. The hand. The bare wrist.</p>
+      <p>Then Melos came.</p>
+      <p>He staggered out of the smoke, and he was <em>ruined</em>&mdash;clothes charred half from his body, blood gone black on his face and arms, one leg dragging&mdash;but whole, all his limbs his own, <em>alive.</em> He was weeping. He fell to his knees in the dirt beside the half-buried body, and he did not see the spirit standing three feet away. He did not feel it watching. He saw only the body, only his friend crushed beneath the earth.</p>
+      <p>"I'm so sorry," Melos said, his voice wrecked past mending. "It should have been me. It should have been <em>me</em>, Kawalan&mdash;you always ran for someone, you were always running for <em>me</em>&mdash;"</p>
+      <p><em>Kawalan,</em> the watching spirit thought, dim and far away and uncomprehending. <em>Who is he weeping for?</em></p>
+      <p>Melos pressed his bloodied brow to the dirt above the buried chest. Then he sat back, and with shaking blackened fingers he worked the cord of the bracelet from his own wrist&mdash;the protection-charm of Simulan, the gift, the betrothal-token meant for a daughter not yet born&mdash;and he lifted the dead man's flung-out hand, and he tied it gently around the bare wrist.</p>
+      <p>"This is yours now," he whispered. "It's kept me alive through all of it. Every battle. It saved me when I'd no business being saved." His tears struck the dirt. "Let it guard you where I can't follow. Let it grant you protection on your journey through whatever comes after. Wherever the road goes now&mdash;let it bring you home."</p>
+      <p>He held the dead hand a moment longer. Then he laid it down. He climbed to his feet, swaying, and looked once more at the body in the broken earth&mdash;and then he turned, and walked on, dragging his ruined leg back toward the center of the battlefield where the war still screamed, alone, unaware, leaving the bracelet on the wrist of the half-buried dead.</p>
+      <p>On the wrist of Kawalan Tigris.</p>
+      <p>The body in the dirt was his. The body he had stood over and grieved and failed to know, two months and a whole haunted country ago, was his own.</p>
+      <p>The flashback released him.</p>
+      <p>He knelt again on the threshold of his own home, in the gold light, his wife and son before him and a glowing tiger at his side, and he understood the whole shape of it, complete and final.</p>
+      <p>"I died," he said.</p>
+      <p>Not a question. He looked at his hands, and they were his and they were not&mdash;not flesh, not warm, not anything the living could hold. He looked at the evening light passing clean through his outstretched fingers.</p>
+      <p>"I died there. In the dirt. Under the stone. I never made it off the field at all." His voice cracked. "Everything since&mdash;the camp, the forest, the river&mdash;all of it was&mdash;"</p>
+      <p>"The long way home," said Of the Loss.</p>
+      <p>The tiger's voice was gentle now, all its thunder gone soft.</p>
+      <p>"You would not go," it said. "When the body fell, the road opened&mdash;the natural road, soft and certain and final, the one every soul is meant to walk. And you turned your back on it. You set off the other way, toward a village two months distant, toward a woman and a child you'd sworn to come home to. A dead man, walking home." Something like love moved in the great gold face. "No soul is meant to do that. The lost things in the dark&mdash;they are what becomes of those who will not go. They were waiting to unmake you. To make you one of them."</p>
+      <p>"But I didn't," Kawalan whispered. "I didn't become one of them."</p>
+      <p>"No," the tiger said, and its gold burned brighter. "Because you did not walk alone."</p>
+      <p>And Kawalan understood the last of it.</p>
+      <p>The name rose in him the way it had risen in the forest&mdash;but this time he understood what he was saying. <em>The name is the thing it was born out of. The wound, or the wanting, or the loss. You don't get a spirit beast from a life that went well.</em> He had laughed, that last good night by the fire, and named the ones he wanted. <em>By the Victory. For the Long Life Ahead. Something a man wants to hear.</em></p>
+      <p>But this was the name the wound had made.</p>
+      <p>"Of the Loss," he said.</p>
+      <p>"Of <em>your</em> loss." The tiger's gold was rising off it now in slow bright ribbons, lifting into the air. "I am the part of you that would not surrender. Born in the dirt the moment you fell&mdash;born of everything you could not bear to leave behind. Your love for her. The son you'd never held. The promise you could not break, even by dying." Its eyes shone. "I walked beside you because you could not face the dark of it alone. I fought because you still had a reason to fight. And I kept the truth from you&mdash;not to deceive you, but to <em>carry</em> it, until you were strong enough to set it down. Until you'd come home. Until you'd held them. As you swore you would."</p>
+      <p>Kawalan looked at his wife. At his son. The gold was everywhere now, welling up out of the tiger and the doorway and the very seam of the evening.</p>
+      <p>"I held them," he said. "I got to hold them."</p>
+      <p>"You did."</p>
+      <p>"Then it was worth it." The tears ran free down his face, and these he understood&mdash;these were wholly his, grief and gratitude and a love that had outlasted his own heartbeat. "The whole long dark. It was worth it, to hold them once."</p>
+      <p>The tiger lowered its great head. "Then it is time," said Of the Loss. "You have done the impossible thing. You have come home. There is nothing left to fight, nothing left to fear, and a road that has waited very patiently for a very stubborn man." Its gaze was tender. "Will you walk it now? With me?"</p>
+      <p>"With you," Kawalan said.</p>
+      <p>And Of the Loss began to change.</p>
+      <p>The great gold body folded inward, drawing its light into itself, smaller and brighter and brighter&mdash;the burnished fur, the blazing eyes, the vast patient strength of it collapsing down to a single point of warm gold light that drifted to Kawalan's outstretched hand and settled around his wrist&mdash;</p>
+      <p>&mdash;and became the bracelet.</p>
+      <p>The protection-charm of Simulan. Melos's gift, tied to a dead man's wrist in a field of the slain. It circled Kawalan's wrist now, simple and worn and real&mdash;and only then, only in that last moment, did he understand that it had not been there. The whole journey. The camp, the forest, the river. His wrist had been bare the entire way, and he had never once looked, never once felt the absence, because the bracelet had never been lost at all.</p>
+      <p>It had been walking beside him. Gold and burning and impossible. Guarding him home.</p>
+      <p>The protection Melos prayed for had come. Just not in any shape a living man could have dreamed.</p>
+      <p>Kawalan closed his eyes. He felt the bracelet warm at his wrist, and the necklace warm at his throat&mdash;Melos's necklace, the goodwill, the long life, the one true thing he'd carried through all the grey&mdash;and the two gifts that two friends had traded against a future neither would live to see rested together at last on the body of the man going home the only way left to him.</p>
+      <p>And the gold light rose.</p>
+      <p>It lifted him gently, the way morning lifts the mist. And as it gathered him up out of the doorway and into the bright&mdash;Zephyress raised her head.</p>
+      <p>She went very still. Her tear-bright eyes widened, and she turned, slowly, searching, toward the empty doorway full of evening light. She did not see him. Not quite. But something crossed her face that had not been there a breath before: a sudden warmth in the cold dusk, a presence brushing past her like a gentle wind&mdash;like the wind she was named for&mdash;warm and known and gone almost before it came.</p>
+      <p>Her lips parted. "...Kawalan?"</p>
+      <p>And in her arms, Malakas <em>laughed</em>&mdash;a bright, delighted, certain laugh&mdash;and reached up with both hands toward the gold pouring out of the doorway, toward the place where his father was, and said it once more, joyful now:</p>
+      <p>"Dada!"</p>
+      <p>Kawalan, rising, looked down at them one last time. His wife with her face turned up to a light she could feel and almost see. His son, reaching, laughing, <em>knowing.</em> He had sworn to grow old with her and watch their boy grow tall, and he would not get the growing old, and he would not get the watching, and the grief of that was a real and terrible thing the gold could not entirely burn away.</p>
+      <p>But he had come home. He had held them. They knew, in the deep wordless way the heart knows a thing, that he had stood in this doorway&mdash;that he had crossed the whole dark world to reach them one last time.</p>
+      <p>It would have to be enough. And rising into the warm and rising gold, his wife's whisper following him up like a blessing and his son's laughter ringing after, Kawalan found that it was.</p>
+      <p>"I'm home," he said, to her, to the boy, to the gold. "I came home. I'll be waiting&mdash;take your time, my loves. Take all the time in the world. I'll be waiting at the end of the road."</p>
+      <p>The light flared, soft and bright as a second dawn.</p>
+      <p>And Kawalan Tigris&mdash;warrior and hunter, husband and father, the chieftain's son who would not surrender&mdash;went home at last. The long way. The only way. With the loss that loved him folded warm around his wrist. He ascended into the gold, and found his rest, and was at peace.</p>
+      <p>In the doorway, the evening light went ordinary again.</p>
+      <p>Zephyress stood a long moment, holding her son, her cheek wet, her heart eased in a way she could not explain. The boy had quieted, his head on her shoulder, content. The cooking-smoke drifted. The village settled toward night.</p>
+      <p>"I wish you were here," she murmured to the quiet doorway&mdash;the way she said it every evening.</p>
+      <p>But this evening, only this once, it did not feel so much like wishing.</p>
+      <p>It felt, almost, like something answered.</p>
+    </div>
+
+    <p class="endmark">&mdash; End of compiled draft &mdash;</p>
+
+    <div class="chapter-nav">
+      <a href="#ch-river"><span>Back</span>The River of the Drowned</a>
+      <a class="next" href="#cover"><span>Return to</span>Cover</a>
+    </div>
+  </article>
+
+</main>
+
+<footer class="site-foot">
+  Kawalan and the Journey Back &middot; a novella in progress
+</footer>
+
+<script>
+(function(){
+  var menuBtn = document.getElementById('menuBtn');
+  var drawer = document.getElementById('drawer');
+  var scrim = document.getElementById('scrim');
+  var drawerClose = document.getElementById('drawerClose');
+
+  function openDrawer(){
+    drawer.classList.add('open');
+    scrim.classList.add('open');
+    menuBtn.setAttribute('aria-expanded','true');
+  }
+  function closeDrawer(){
+    drawer.classList.remove('open');
+    scrim.classList.remove('open');
+    menuBtn.setAttribute('aria-expanded','false');
+  }
+  menuBtn.addEventListener('click', function(){
+    drawer.classList.contains('open') ? closeDrawer() : openDrawer();
+  });
+  drawerClose.addEventListener('click', closeDrawer);
+  scrim.addEventListener('click', closeDrawer);
+  drawer.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', closeDrawer);
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeDrawer();
+  });
+
+  // Reading progress bar
+  var bar = document.getElementById('progressBar');
+  function updateProgress(){
+    var doc = document.documentElement;
+    var scrollTop = doc.scrollTop || document.body.scrollTop;
+    var scrollH = doc.scrollHeight - doc.clientHeight;
+    var pct = scrollH > 0 ? (scrollTop / scrollH) * 100 : 0;
+    bar.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', updateProgress, {passive:true});
+  updateProgress();
+
+  // Topbar section label — tracks which chapter/part is in view
+  var sections = Array.prototype.slice.call(document.querySelectorAll('[data-part]'));
+  var label = document.getElementById('topbarPart');
+  function updateLabel(){
+    var best = null;
+    var bestTop = -Infinity;
+    sections.forEach(function(sec){
+      var r = sec.getBoundingClientRect();
+      if(r.top <= 90 && r.top > bestTop){
+        bestTop = r.top;
+        best = sec;
+      }
+    });
+    if(best){
+      label.textContent = best.getAttribute('data-part');
+    } else if(window.scrollY < 100){
+      label.textContent = 'Cover';
+    }
+  }
+  window.addEventListener('scroll', updateLabel, {passive:true});
+  updateLabel();
+})();
+</script>
+
+</body>
+</html>
