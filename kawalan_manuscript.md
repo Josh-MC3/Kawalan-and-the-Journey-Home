@@ -1,0 +1,1054 @@
+KAWALAN AND THE JOURNEY BACK
+A novella in progress
+
+A soldier finds his way home from a war that should have ended him — guided the whole way
+by a tiger no one else can see, toward a wife and a son he has never held.
+
+
+PART ONE: SIMULAN
+
+
+THE COURTYARD
+
+In the years before the war, Simulan, a quaint village in the eastern country of Sarili, kept its mornings the way it always had: slow, and golden, and unhurried, as though the village in the hills had made a private agreement with time to let it linger.
+
+The chieftain's courtyard caught the early light first. It was a wide square of packed earth ringed by the great house and the storehouses and a single old mango tree that had been there longer than anyone living, and on most mornings it belonged to the children who came to train. An arrowsmith's daughter at the archery butts along the eastern wall. A chieftain's younger son with his practice swords in the center, where the ground was worn smooth by his own restless feet.
+
+Kawalan, second born to the Chieftain of Simulan, was eleven that year, and there was nothing in the world he loved more fiercely than this village and the long quiet peace of it.
+
+It was the kind of love he'd been raised into. A chieftain's son learns early that the village is something like family—that the people in it are his to care for, the way his father cared for them, with a compassion that asked for nothing back. He knew the names of every family. He knew which roofs leaked and which old widows needed their firewood carried. And the more he loved it, the more he understood—in the wordless way a boy understands the important things—that peace this gentle was a fragile thing, and that fragile things needed someone willing to stand between them and the world. He wanted to be that someone. Not to be praised for it. Just so that nothing he loved would ever have to be afraid.
+
+It was a hard thing, being the second son. Barta had everything already—the height, the easy laugh, the way grown men leaned in when he spoke though he was only a boy. Barta would be chieftain one day; everyone said so, said it the way they said the rain would come or the mangoes would ripen, as a simple fact of the turning world. And Kawalan loved his brother, loved him fiercely, and still some mornings, alongside that love, there sat a quieter and more stubborn thing—a resolve with no name yet—that drove him out to the courtyard before the dew had burned off to swing a wooden sword at nothing until his arms shook.
+
+Be strong enough, the quiet stubborn thing said. Strong enough to keep it safe. Strong enough that no harm comes to what you love while you have breath to stop it.
+
+So he trained. He trained until the village stopped being surprised by it. That one, the elders would say, watching him drill in the heat while other boys swam in the river, that one will be a warrior. Compassion in him like his father, and iron in him besides. Watch.
+
+And there was someone who watched.
+
+He had noticed her the way you notice a change in the weather—gradually, and then all at once, and then you cannot un-notice it. The arrowsmith's daughter. Zephyress. She came most mornings to the eastern wall with her bow and a quiver of practice arrows, and she shot the way water moves: without strain, without hurry, every arrow finding the straw target with a soft and certain sturdy sound while Kawalan grunted and sweated and shattered the morning with his shouting. She was the calm to his storm. She was quiet where he was loud, still where he was always moving, and the village said of her—the way it said of him—that one is gentle. That one passes through a room like a breeze through grass, and the room is better for it.
+
+Neither of them had ever spoken a word to the other.
+
+But sometimes, across the wide gold square, their eyes would meet. And she would not look away the way the other girls did, and he would not look away the way pride told him to, and for a moment that lasted a heartbeat too long the courtyard would hold the two of them in its quiet, the warrior and the archer, the storm and the breeze, before one of them—it was always one of them—broke and turned back to the work.
+
+It went on like that for a season. Sweet eyes and silence. Neither of them brave enough, in all their bravery, to cross the courtyard.
+
+It took a wooden sword to do what the two of them could not.
+
+It happened on a morning bright enough to hurt. Barta had come out to watch—just for a moment, just long enough to ruffle Kawalan's hair and call him the baby warrior and laugh and go—and a spark in Kawalan's chest had flared up white-hot in his brother's wake. He drilled harder. Wilder. And because she was there, because she was watching, he reached for a strike his arms weren't ready for, a great overhead blow with everything in it, all his eleven years of wanting to be strong enough poured into one swing—
+
+The practice sword struck the post wrong, and shattered.
+
+He heard the crack before he felt anything. Then the world lurched, and there was a sharp line of pain in his shoulder, and when he looked down stupidly a long splinter of wood stood out of the meat below his collarbone, dark blood already welling around it and running down his arm.
+
+He swayed. The courtyard tilted. Don't fall, the stubborn thing said, panicking. Not in front of her. Don't you dare fall—
+
+And then she was there.
+
+He hadn't seen her cross. One moment she was a small figure at the distant wall and the next she was in front of him, close enough to touch, her bow forgotten in the dirt behind her. She took his arm in both hands with a steadiness that astonished him—no squeamishness, no fuss, just the brisk sure grip of a girl who had grown up around hunters and dressed game and helped pull arrowheads from the flanks of deer. She looked at the splinter. She looked at the blood. She did not flinch.
+
+"Sit," she said. It was the first word she had ever spoken to him. "Down. Now, before you fall and make it worse and I have to drag you."
+
+He sat.
+
+She knelt beside him in the gold dust and went to work—pressing the wound, steadying his arm, calling over her shoulder for clean water and binding cloth in a voice that the storeroom servants somehow obeyed at once though she was only a child. Her hands were warm and certain on his skin. Up close she smelled of bowstring wax and morning air. And Kawalan, who a moment ago had wanted nothing in the world but to be strong enough to keep this place safe, found that being looked at by her this closely was a different and far more terrifying thing entirely, and that his heart was doing something his sword-drills had never made it do.
+
+He had to say something. The silence of a whole season was breaking and he had to put something into the gap, and what came out—because he was eleven, and because some part of him was already, hopelessly, the man he would become—was:
+
+"So." He winced as she pressed the cloth tighter. "Is taking a wooden shard to the shoulder trying too hard? To get your attention, I mean."
+
+Her hands went still.
+
+She looked up at him. For one awful moment he was certain he had ruined it, that she would gather her bow and her dignity and leave him bleeding in the dust forever—
+
+And then Zephyress laughed.
+
+It was a small laugh, surprised out of her, quick and bright as a thrown stone skipping water. Her cheeks colored. She bent her head back to his shoulder so he wouldn't see her smiling, and she said, in a voice that was trying very hard to be stern and not managing it at all:
+
+"Hold still, you idiot. You're getting blood on my sleeve."
+
+But she was smiling. He'd seen it before she hid it. And he sat very still in the warm gold morning and let her tend him, the splinter forgotten, the wound forgotten, the quiet stubborn thing in his chest gone strangely and completely still for the first time in his whole striving life—
+
+—and somewhere in the courtyard, the long peace of Simulan went on, and a breeze moved through the old mango tree, and turned the leaves, and passed.
+
+
+THE ARCHER
+
+Now twenty, he came back to Simulan with a wound in his side, three new scars, and a reputation that had outrun him up the mountain road.
+
+There had been a border skirmish to the south—a tax dispute between two lowland lords that had spilled over into raiding, and Simulan had sent its young men down to settle it because that was what hill villages did when the lowlands came asking. Kawalan had gone because his father asked it of him and because Barta was already away in the wider world and someone of the chieftain's blood had to stand where the village could see him standing. He had not expected to be good at it. He had been very good at it.
+
+He came home thinner and quieter than he'd left, and the village met him at the gate with the particular pride reserved for a son who'd gone to do something terrible on their behalf and returned still recognizable. His mother wept. His father gripped his forearm and held it a long moment and said nothing, which from Takta was the loudest thing he could have said. The elders nodded their slow nods. That one, they'd always said. That one will be a warrior. They had been right, and being right pleased them more than it pleased him.
+
+It was three days before he saw her.
+
+He'd known, distantly, the way you know facts about a place you grew up in, that the arrowsmith's daughter still lived in Simulan—that she had not married, that she'd taken over much of her father's craft now that his hands had stiffened, that the village set its bows by her. He had not let himself think much beyond that. Two years of soldiering teaches a man not to spend his hope on things he isn't sure he'll live to collect.
+
+But on the third morning he woke before dawn out of old habit, and his feet carried him to the chieftain's courtyard before his mind had decided anything, and she was there.
+
+Zephyress stood at the eastern wall in the grey light, drawing a bow. She had grown into herself the way a blade grows into its edge. Taller. Surer. The girl who had knelt in the dust to pull a splinter from his shoulder had become a woman who stood with her feet planted and her breath slow and her eye following the arrow's flight before she'd loosed it. She didn't see him. She drew, held, and released, and the arrow found the center of the straw target with that same soft, sturdy sound he had carried in his memory through two years of places that had no soft or certain sounds in them at all.
+
+He must have made some noise. She turned.
+
+For a moment neither of them said anything. The years stood between them in the cold morning air, and so did everything that had happened in those years, the things he'd done in the south and the things she'd quietly built at home, two people who had once traded glances across this exact courtyard and never found the courage to cross it.
+
+"You're back," she said.
+
+"I'm back."
+
+"They said you were wounded."
+
+"I was. I'm mending." He touched his side, where the ache still lived. "It's not as bad as the storytellers down at the well are making it."
+
+"The storytellers down at the well have you killing forty men single-handed and carrying the lord's banner out of a burning keep with your teeth."
+
+"Then it's much less bad than that." A smile tugged at him despite everything. "I didn't carry anything with my teeth. I want that on record."
+
+And there it was—the corner of her mouth, lifting, the same quick bright thing he'd seen her hide behind his shoulder when they were eleven. She lowered the bow.
+
+"You came to the courtyard," she said. "First thing. Three days home and you came here."
+
+"Old habit." It wasn't, and they both knew it wasn't, and he found he didn't want to pretend otherwise anymore. He had spent two years learning exactly how short a life could be. "No. That's a lie. I came because I wanted to see if you still came here in the mornings. I used to—" he stopped, started again, plainer. "I thought about this courtyard a great deal, where I was. I thought about it more than I thought about almost anything else. I'm not sure I knew that until just now, seeing you standing there."
+
+Zephyress was quiet. Then she crossed the courtyard.
+
+She came all the way to him, the way she had once before, and she looked up at him with that same steady, unflinching attention she gave to a target before she loosed, and she said, "It took you long enough."
+
+"To come home?"
+
+"To cross the courtyard." She reached up—slowly, deliberately—and laid two fingers against the old scar on his shoulder, the one her splinter had made, the one that had started everything and that he'd carried under his armor through every fight in the south like a coin he couldn't spend. "You've had since we were children, Kawalan. I was beginning to think I'd have to shoot you to get your attention again."
+
+He laughed, and it cracked something open in him, something the war had welded shut.
+
+"Don't," he said. "I've been shot at enough. Let's try it the other way this time."
+
+"What's the other way?"
+
+"I court you properly. I bring your father something better than I am to make up for the fact that I'm a soldier and a second son with a hole in his side. I marry you, if you'll have a man like that. And I never go anywhere again that I can't bring you back from." He hadn't planned to say any of it. It came out of him whole, the way the truth does when a man has spent too long being careful. "I'm done crossing courtyards slowly, Zephyress. I haven't got the time for it. I learned that the hard way."
+
+She didn't answer right away. Her fingers were still on his shoulder. The dawn came up gold over the eastern wall behind her, the way it always had, the way it had on the morning a splinter changed both their lives.
+
+"Yes," she said simply. "To all of it. Yes."
+
+And the courtyard held them, the warrior and the archer, the storm finally come home to the breeze—and this time, neither of them turned away.
+
+
+MALAKAS
+
+They married before the first snow, and the village made it the kind of celebration it hadn't had in years.
+
+Takta gave his blessing with a full heart and a quiet warning to his son, away from the music, that a man who'd seen war young sometimes carried it home in places his wife couldn't see, and that Kawalan should let her see them anyway. Kawalan promised he would. Barta sent word from somewhere far to the west—a letter that arrived two months late, full of wonder and apology, swearing he'd come home to meet his sister-in-law the moment the world let him, signing off as he always did with some impossible thing he'd seen. Tell her, the letter ended, that my little brother is the luckiest man in the hills and he knows it. Make him say it out loud. He's bad at saying things out loud. Kawalan read it aloud to Zephyress in bed, and she'd laughed and agreed, and made him say it out loud, and he had.
+
+Those were good years. The best he would ever have, though he didn't know to count them at the time, which is the way of good years.
+
+He hunted, and the village ate. He sat at his father's side and learned the slow patient work of leading people who'd known him since he was a boy stealing mangoes. Zephyress made bows that outshot anything the lowlands could buy, and taught the village children their letters and their numbers in the long warm afternoons, and moved through Simulan like the thing she was named for—a gentle wind that left every room calmer than it found it. People brought her their troubles the way they brought Kawalan their disputes. Between the two of them, the village felt held.
+
+And then, in their third spring, she told him she was pregnant.
+
+She told him in the courtyard. Of course she did. She'd asked him to meet her there in the early morning, and he'd come up the path half-asleep and grumbling, and she'd been standing at the eastern wall in the grey light with her bow in her hand and the strangest expression on her face, and before he could ask what was wrong she'd said, "I'm going to teach our child to shoot right there. By the wall. The way my father taught me."
+
+It had taken him a moment. And then it had taken him no time at all.
+
+The months that followed undid him in ways the war never had. He had thought himself a hard man, a man who'd seen enough that little could move him. He was wrong. He was undone by the smallest things now—by the way she pressed her hand to the small of her back when she stood, by the way she hummed without knowing she was doing it, by the curve of her that grew through the summer until she laughed and called herself a harvest moon. He hovered. He knew he hovered. She let him, mostly, and swatted him when he overdid it, and he loved being swatted because it meant she was there to do it.
+
+Then, one evening near the end of summer, with the light going amber through the window and the cook-fires being lit across the village, he had his hand spread flat against the swell of her belly the way he'd taken to doing in the quiet hours—and the child kicked.
+
+Kawalan went absolutely still.
+
+"Did you—" he started.
+
+"I felt it." Zephyress was watching his face with open delight. "He's been doing it for days. I wondered when he'd let you in on it."
+
+The child kicked again, hard, right against his palm, as though answering. And something broke loose in Kawalan's chest, something enormous and unguarded, and he found his eyes had gone hot and his voice when it came out was not steady at all.
+
+"He kicked me." He said it like a man reporting a miracle, which he was. "Zephyress. He kicked me. He's not even—he's not even here yet and he's already trying to knock his father down." He laughed, wet and amazed, his hand pressed to her belly like he could hold the moment still by main force. "He'll be strong. Gods, he'll be strong—I can feel it, he's going to be a terror, he's going to be impossible, he's going to be the strongest thing these hills have ever raised—"
+
+"Malakas," Zephyress said.
+
+He looked up at her.
+
+She had one hand over his where it lay against her, and her eyes were shining, and she said the word again, softer, trying the shape of it.
+
+"Malakas. Strength. That's his name, isn't it. You just gave it to him." She smiled down at the swell of their child between their joined hands. "You said it yourself. The strongest thing these hills have ever raised."
+
+"Malakas," Kawalan repeated. It sat right. It sat exactly right, the way her yes had sat in the courtyard, the way coming home had sat after two years of away. "Malakas Tigris."
+
+"Malakas Tigris." She leaned her forehead against his. "Our terror. Our impossible boy."
+
+The child kicked once more, as if to settle the matter, and the two of them stayed like that in the amber light, foreheads together, hands joined over the small fierce life that had already, without drawing a single breath, become the center of everything they were.
+
+He did not know, then, that he would never hold that child with living arms. He did not know anything but joy. And that, at least—that one perfect ignorant evening, that one moment of pure unshadowed happiness—was a thing the world would not be able to take from him, no matter what it took from him after.
+
+
+THE SUMMONS
+
+The war came the way bad weather comes to the hills—first as rumor on the wind, then as refugees on the road, then as a thing standing in your own doorway before you've fully understood it was coming at all.
+
+Otras had crossed the border in the spring. Everyone knew why; everyone had always known why. Sarili had the river valleys, the deep iron, the long fertile lowlands that Otras's stony coast had always coveted, and a hungry country with a strong army will eventually find a reason to take what it wants from a softer neighbor. The reasons given hardly mattered. What mattered was that the lowland towns were burning, and the Sarili host was forming to meet the invasion, and the host needed men.
+
+The summons reached Simulan when Zephyress was six months along. It came as a sealed writ carried by a tired rider, addressed to the chieftain, requiring of the village its able-bodied men in the name of a king most of them had never seen. Takta read it twice in the longhouse with his jaw set, and then he was silent for a long time, and then he did the hardest thing a leader does, which is to ask of his own people the thing he is asking of everyone else's.
+
+He could not go himself. He had argued it—Kawalan had heard him argue it, fiercely, with the rider and then with the elders—but he was past sixty, and a chieftain who marched off to die in the lowlands left his village leaderless in the middle of a war, and even Takta's pride could not outrun that arithmetic. He would stay. He would hold Simulan together.
+
+And the village's young men would go.
+
+Kawalan would lead them.
+
+There was never any question of it. He was the chieftain's son, the only one of the blood still in the hills, and he was the one man in Simulan who actually knew what a battlefield was. The boys he'd grown up with, the farmers and the fishermen and the arrowsmiths' sons, would follow him because they'd followed him their whole lives, and because the alternative was following no one. To send them down the mountain under anyone else would have been to send them to die faster. He knew this. It did not make it easier.
+
+He told Zephyress that night, in their home, with the summer dark pressing at the windows.
+
+She did not weep, which was worse than if she had. She sat very still on the edge of their bed with her hands folded over the swell of their son, and she listened to all of it, and when he was done she said only,
+
+"When."
+
+"A week. They're gathering the host at the river-fords before the snows."
+
+"A week." She nodded slowly, absorbing it. "And the baby's due in three months."
+
+"I know."
+
+"You won't be here."
+
+"I know." It came out raw. He knelt in front of her, the way she had once knelt in front of him, and he took her hands in both of his. "Zephyress. I would give anything. You have to know that I would give anything not to do this. If there were any way—if I could send someone in my place and live with myself after, I'd—"
+
+"Don't." She pressed her fingers to his lips, gentle and firm. "Don't say that. I don't want a man who could live with himself after sending someone else's husband to die in his place. That's not who I married. I married the man who crosses the courtyard." Her voice trembled, finally, just at the edges. "I married the man who stands where the village can see him standing. I just wish—" She stopped. Breathed. "I wish the village didn't always have to be able to see you. Just once. Just this once, I wish you could be a coward, and I could keep you."
+
+He pressed his forehead to her hands and they stayed like that, and neither of them said the thing they were both thinking, which was that men marched down that mountain in wars like this one and did not always march back up it.
+
+"I'll come home," he said at last. He lifted his head and made her look at him and he said it like a vow, like the deepest vow he'd ever made, deeper than the one in the courtyard. "I swear it to you, Zephyress. I will come home to you and to him. I'll hold our son. I'll teach him to be impossible and you'll teach him to shoot and we'll grow old right here and watch him become a good man. That's the whole of it. That's the only thing I'm fighting for—not the king, not the iron, not the river valleys. Just that. Just the right to come back up this mountain and grow old with you. I will not die in the lowlands for a war I didn't ask for. I'm coming home. Believe me."
+
+"I believe you," she whispered. And she did, because she had to, because believing it was the only way either of them would survive the week. "You come home, Kawalan Tigris. However long it takes. You come home to us."
+
+"However long it takes."
+
+· · ·
+
+The week went too fast, the way the last of anything good always does.
+
+On the final morning the village gathered at the gate the way it had gathered to welcome him home from the south, except this time the pride was thinner and the fear underneath it was closer to the surface. Mothers held sons. Wives held husbands. Takta stood at the front with his old straight back and gave each departing man a word, and gripped each forearm, and to his own son he gave the longest grip and the fewest words. "Bring them back if you can," the old chieftain said quietly. "Bring yourself back regardless. Your son will need to meet the man, not the story." Kawalan could not answer that, so he embraced his father instead, and felt how thin the old arms had gotten, and understood that this too might be a last thing.
+
+And then Zephyress.
+
+She came to him at the gate with her chin up and her belly round between them and her eyes dry by sheer force of will. He put his hand on the swell of their son one last time and felt no kick, just the warm still weight of the life he was leaving, and that absence of kicking nearly undid him more than anything.
+
+"He's sleeping," Zephyress said, watching his face. "He doesn't know to say goodbye."
+
+"Tell him for me." Kawalan's voice was wrecked. "Every day. Tell him his father went down the mountain to keep the war away from his door, and that he's coming back. Tell him so he knows me when I—" his voice broke "—so he knows me when I walk back through that gate. Don't let me be a stranger to him, Zephyress. Whatever happens. Don't let me be a stranger to my own son."
+
+"Never." She took his face in both her hands. "He'll know you. I'll make sure of it. He'll know your face and your name and your voice before he can walk. I promise you that. And you—" she pulled him down and pressed her lips to his, fierce and brief and breaking "—you promise me the rest. Say it again."
+
+"I'm coming home."
+
+"Again."
+
+"I'm coming home, Zephyress. I'm coming home to both of you."
+
+She let him go. It was the hardest thing either of them ever did, and they did it standing up, in front of the whole village, the way the village needed to see it done.
+
+Kawalan shouldered his pack and turned and led the young men of Simulan down the mountain road, and he made himself not look back, because he knew if he looked back he would not be able to keep walking, and the boys behind him were watching to see if their captain could keep walking. So he kept walking.
+
+He did look back once, at the bend in the road where the village would pass out of sight. She was still at the gate. She had one hand raised—not waving, just held up, open, the way you hold a hand against glass to touch someone you can't reach. He raised his the same way. Then the road turned, and the apricot trees came between them, and Simulan was gone.
+
+The bracelet would reach him a year later, folded in his brother's letter. The necklace, later still. But it was her open raised hand at the gate that he carried down the mountain and into the war—her hand, and the still warm weight of a sleeping son, and a promise he meant with the whole of his life: I'm coming home.
+
+
+THE WIND THROUGH SIMULAN
+
+Malakas Tigris was born in the deep of winter, three months after his father marched down the mountain, and he came into the world exactly as promised: strong, and loud, and impossible.
+
+Zephyress labored through a long cold night with her mother-in-law's hands to hold and the village midwife's voice to guide her, and near dawn the boy arrived squalling with a set of lungs that made the midwife laugh and declare he'd be heard across three valleys. They laid him on her chest and she looked down at the red furious little face of her son—at the brow that was already, unmistakably, his father's brow—and she wept, for joy and for grief at once, because the one person in all the world who should have been there to see this was somewhere down in the lowlands where the war was, and did not even know that his terror, his impossible boy, had come.
+
+"Malakas," she whispered to him, the name his father had given him on an amber evening that felt like another life. "There you are. Your father said you'd be strong. He was right. He's always right, it's his most annoying quality, you'll learn."
+
+She kept her promise. From the very first days, she made certain her son knew his father.
+
+She told him about Kawalan every single day. When he was too small to understand a word of it, she told him anyway—murmured it over the cradle, sang it into his hair, narrated it through the long dark feedings before dawn. Your father is the bravest man in these hills. Your father crossed a courtyard for me, eventually, the slow fool. Your father went down the mountain to keep the bad things far away from you, and he's coming back, he promised, and your father keeps his promises. She showed him the carved likeness she'd had the village woodworker make—a rough thing, not really Kawalan's face, but a face she could point to and say Dada, so the word would mean something, so it would have somewhere to land. She propped it where the boy could see it. She made it the first word she taught him after her own name.
+
+And Malakas, who was his father's son, learned it. Dada. He would point his fat little hand at the carving and crow the word and Zephyress's heart would break and mend in the same instant, every time.
+
+There was a thing the old women of Simulan said, the ones who had buried enough husbands and outlived enough winters to have opinions about what a soul was and where it went when it left a body. They said it to new mothers, usually, half as comfort and half as superstition too old to argue with: that small children stood closer to the door between the living and whatever came after than grown people did. That a baby's eyes, before they learned to see the world the way the world insisted on being seen, sometimes saw past it instead. Zephyress had heard it her whole life and never thought much of it—village wisdom, the kind that explained why infants laughed at empty corners and stared, delighted, at nothing.
+
+She thought of it again the evening Malakas was four months old and laughed, suddenly and completely, at the empty air above his cradle—laughed the way he laughed at his mother's face, at the carved Dada on the shelf, at things that were someone to him and not just shapes in a room. Zephyress had followed his gaze and found nothing there but lamplight and the settling dark, and she had laughed too, helplessly, and said, "What do you see that I don't, little terror?" and gone back to her mending and not thought of it again for a long time.
+
+It was, she would realize much later, the first of many evenings her son reached toward an empty doorway as though someone he loved were standing in it.
+
+The first year was the hardest, and then the second year was hard in a different, quieter way.
+
+News came up the mountain rarely and late. A battle won here, a town lost there, the front holding or not holding—it all arrived weeks old and three times distorted, and none of it ever mentioned the names that mattered. She learned not to ask the tired riders for word of one specific squad-captain from Simulan; they never had it, and the not-having frightened her more than silence. So she stopped asking. She told herself that no news was its own kind of mercy. She told herself he was alive because she would surely feel it, somehow, if he weren't—and she half-believed it, the way you half-believe the things you cannot live without believing.
+
+She did not fall apart. That was not who she was, and it was not what the village or her son needed her to be. Instead she did what she had always done: she became the still point others steadied themselves against. With so many men gone down the mountain, Simulan ran thin and frightened, and Zephyress moved through it like the breeze she was named for, calming where she passed. She taught the children—more of them now, the ones whose fathers were also away, who needed somewhere to put their long anxious days. She kept making bows, because a hill village in wartime needed bows, and hers were the best. She sat with the other waiting wives in the evenings and let them weep when they needed to and did not weep herself until she was alone, which was the only mercy she allowed herself and which she allowed every night.
+
+And every night, after the boy was finally asleep, she would stand a moment in the doorway of their home and look down the dark mountain road, the road he'd walked down and had not yet walked back up, and she would say the same small thing into the night, half a prayer and half a habit, the way you keep a fire banked so it doesn't go out:
+
+"Come home. Whenever you can. I'm still here. We're both still here. Just come home."
+
+Then she would go in, and check on her sleeping son, and lie down alone in the bed that was built for two, and do it all again the next day. And the next. And the next.
+
+Two years she did this. Two years of teaching the word Dada to a boy who'd never heard the voice it belonged to. Two years of banking the fire. Two years of telling the village's frightened children that brave men come home, because she needed it to be true, because she could not afford for it not to be true.
+
+She was very good at it. By the end she had almost convinced herself.
+
+So that when the evening finally came—amber light through the doorway, the cook-fires being lit across the village, her son on her hip reaching out with his fat little hand toward something only he could see, crowing the word she'd taught him with such fierce certainty—
+
+"Dada"
+
+—she would have no reason in all the world to suspect that this time, at last, the word had found the man it was made for.
+
+
+PART TWO: THE WAR
+
+
+BARTA'S LETTER
+
+The fire had burned down to embers, and most of the camp had gone quiet. Somewhere off in the dark a sentry coughed; somewhere else a man wept in his sleep, the way half of them did now and pretended not to in the morning. Kawalan sat with his back against a supply crate, a folded square of paper held close to catch the dying light.
+
+Melos dropped down beside him with a groan, working a knot out of his shoulder. "Another one from the famous brother?"
+
+"Came with the supply train this morning." Kawalan smoothed the creases. The paper had traveled a long way to reach him—the edges were soft with handling, the ink smudged in places by rain or river-water. "He's gone further west than anyone from Simulan's ever been. Listen to this."
+
+He angled the page and read aloud, his voice low so it wouldn't carry. "'Little brother. I have seen magic with my own eyes, and I do not have the words to make you believe me, so I will simply tell you and you may call me a liar when I come home. There is a town hidden in the hills where the wizards make fire dance on their fingertips like it costs them nothing. An old woman there showed me how the elements are not summoned but remembered—as though the air and the stone and the flame were all waiting to be called by their true names.'"
+
+Melos had gone still beside him. "Fire on the fingertips," he murmured. "You believe it?"
+
+"I believe Barta wouldn't waste paper on a lie." Kawalan turned the page over and kept reading. "'But the strangest thing I have seen is not the magic. It is the lord of that place—an elf, older than he looks, and he is never without a bird. A grey-and-white bird that rides on his shoulder and watches you the way a person watches you. They say it is a spirit beast. They say its name is About the Rain, and that wherever it goes, the harvest comes in heavy and the wells stay full. The villagers half-worship it.'"
+
+"A bird with a name." Melos huffed a laugh, but it was a soft, wondering sound, not a mocking one. "And what does that even mean—'About the Rain'?"
+
+"That's the part." Kawalan tapped the page. "Barta asked the same. The elf told him a spirit beast's name isn't chosen. It's not like naming a child. The name is—" he searched for the word Barta had used "—it's the thing it was born out of. The wound, or the wanting, or the loss that made it. About the Rain came from a drought, ages ago. From a whole people praying for water that wouldn't come. All that longing, all those years of it, somehow it… took a shape. And the shape was a bird."
+
+Melos was quiet a moment, staring into the embers.
+
+"Barta heard there's another," Kawalan went on. "Further south. A wizard-lord with a tortoise that follows him everywhere. They call it By the Warmth." He folded the letter carefully along its worn creases and tucked it inside his jerkin, near the heart, where he kept everything that mattered. "He says spirit beasts are rarer than magicians. Most people live a whole life and never see one. Each one's a legend with its own strange story. And nobody ever knows the full meaning of the names—just enough to guess at."
+
+For a while neither of them said anything. The fire ticked and settled. Out beyond the picket line, the dark pressed close, and tomorrow the dark would have ten thousand Otras soldiers in it, and the day after that, the great battle that everyone could feel coming the way you feel a storm in your teeth.
+
+Melos broke the silence first, and there was a grin in his voice now, the old easy warmth of him.
+
+"So." He nudged Kawalan with an elbow. "If you and I live through all this—if we get to be grand old men with grand old reputations—and a spirit beast comes wandering out of the hills to follow us around. What'll they be named, you think? What's the great wound that made the legendary Kawalan Tigris?"
+
+Kawalan laughed—a real laugh, the first in days, surprised out of him. "Mine?" He spread his hands as though displaying a banner. "Mine had better be called By the Victory. Or For the Long Life Ahead. Something a man wants to hear." He grinned. "Something that means I got everything—the war won, the boy grown tall, you and me standing at the lake lying about how dangerous it all was."
+
+"For the Long Life Ahead." Melos shook his head, smiling. "That's not how it works and you know it. You don't get a spirit beast from a life that went well."
+
+"Then mine will be the exception." Kawalan clapped him on the back. "I've decided. I'm going home, Melos. I'm going to hold my son, and I'm going to grow so old and so boring that no self-respecting legend would come near me. That's the plan. That's the whole plan."
+
+Melos laughed and let it go, and the two of them sat in the warm ruin of the fire and talked of fishing lakes and grandchildren and the carpentry shop Melos swore he'd open, until the embers went grey and the sentries changed and the night slipped quietly into morning.
+
+Neither of them said the obvious thing. Neither of them named the truth that hung in the cold air between the jokes: that no one wins a spirit beast from a life that went well. That the names come from wounds. That whatever the legend of Kawalan Tigris would one day be called, it would not be By the Victory, and it would not be For the Long Life Ahead.
+
+
+THE GIFTS
+
+The bracelet had traveled further than either of them had, before it ever reached Kawalan's wrist.
+
+It came folded inside one of Barta's letters, a year into the war—a strip of soft tanned leather, three knots, a single disc of hammered copper stamped with a spiral neither of them recognized. The letter that came with it was shorter than most.
+
+Little brother. Bought this off a peddler in the foothills who swore on his mother's grave it was a true ward—carried by a soldier through three campaigns without a scratch, he said, before the soldier finally hung it up and decided he'd rather sell his luck than keep testing it. I don't know if I believe in luck you can buy. But you're the one standing in a field somewhere that I'm not, and I am not too proud to send you whatever charm a desperate man will part with. Wear it. Come home and tell me it's nonsense. I'd rather you alive and laughing at me than the alternative.
+
+Kawalan had laughed at the letter, at his brother's bluntness, at the absurd image of Barta haggling with some hillside peddler over a strip of leather and copper. But he'd tied it onto his wrist that same night, and he had not taken it off since.
+
+It became, over the following months, the kind of habit a soldier doesn't examine too closely. He touched it before every charge—two fingers, a press, gone before he could call it anything as foolish as a prayer. He'd come out of three skirmishes since with nothing worse than bruises, where men beside him hadn't. He knew, the rational part of him knew, that this proved nothing. Men died wearing wards every day. But the part of him that had watched friends fall regardless of what they carried into the field had learned, the hard way, not to argue with whatever small thing kept his hands steady.
+
+For Malakas, he told himself, whenever he caught himself believing it too much. I'll wear it until I go home. Then it's his. Let him decide if it's nonsense.
+
+· · ·
+
+The night before the battle, Melos found Kawalan sitting apart from the fires, the bracelet turned to catch what light reached him there.
+
+"You're doing the thing again," Melos said, dropping onto the log beside him. "The staring-at-your-own-wrist thing. You do it before every fight now. Has anyone told you that's strange?"
+
+"You've told me. Repeatedly."
+
+"And yet." Melos nudged him with an elbow, settling in. "Your brother's peddler-charm. Still holding up?"
+
+"Still here." Kawalan turned his wrist so the copper caught the firelight. "Three skirmishes. Tomas lost two fingers to frostbite in the mountains and I came out without a scratch standing in the same wind. I'm not saying it's magic."
+
+"You're saying it's magic."
+
+"I'm saying I'm not getting rid of it." Kawalan let his hand fall. "I keep thinking about giving it to Malakas when I'm home. Let him have something that came all the way from his uncle, through a war, onto his father's wrist, and out the other side in one piece. Might be the best story I ever hand that boy."
+
+Melos was quiet for a moment, and when he spoke again his voice had dropped some of its usual mischief.
+
+"You know what's strange," he said. "Two years, and I don't think I've ever properly thanked you."
+
+"For what?"
+
+"For the obvious thing, Kawalan." Melos gestured, a little helplessly, at the whole dark sprawl of the camp around them. "You've pulled me out of more bad places than I can count anymore. The river crossing outside Halna, when that current nearly had me. The collapse at the eastern wall, when half the roof came down and you were the only one who didn't run the wrong way. I don't know how many times I'd be a name on a casualty list if you weren't standing where you stand." He shook his head. "I've never said it properly. So. I'm saying it now."
+
+Kawalan looked at him for a long moment, something thick rising in his throat that he didn't have a ready joke for.
+
+"You've pulled me out of just as many," he said finally. "We don't keep score, Melos. That was never the arrangement."
+
+"No. But I want to give you something anyway." Melos reached up and drew the cord from around his own neck—a single bead of pale wood, smoothed to a soft shine by two years of handling, hanging from a worn leather string. "This was my grandmother's. She gave it to my mother, my mother gave it to me, and I always assumed I'd give it to whatever child I had, someday, the way it's always gone. But I want you to have it. Now. Tonight."
+
+"Melos—"
+
+"Let me finish, you ox." Melos held it out, the bead swinging gently between them. "My grandmother used to say it like a blessing whenever she gave one away. May you have a long life, and the goodwill to fill it. That's all it means. That's the whole charm. I want you wearing something of mine when you walk into that field tomorrow, the same way you've been wearing your brother's nonsense charm. Call it superstition. Call it whatever you want. I want it on you."
+
+Kawalan took it slowly, turning the bead in his fingers. It was warm from Melos's skin.
+
+"Then take this," he said, and before he could think better of it he was working the leather cord loose from his own wrist. "Barta's bracelet. The one I've been hoarding for Malakas."
+
+Melos's hand came up automatically, and then stopped. "I thought that one was sacred. The whole 'best story I ever tell my son' business."
+
+"It still will be. Just a longer story now." Kawalan pressed it into his palm. "You've kept me alive as many times as I've kept you. If it's done anything at all, the least it can do is watch your back instead of mine for one more day. And then—" he hesitated, working out the shape of the thought as he said it "—then we both go home. You give your daughter a necklace of her own one day, or you tell her the truth and let her decide if she wants this old one instead. And someday, gods willing, I put this bracelet on Malakas's wrist and tell him his uncle bought it off a half-mad peddler and his father's best friend wore it through the worst day of his life and came home anyway."
+
+Melos turned the bracelet over once, then tied it onto his own wrist, working the knot with the same careful hands he used for everything he touched—wounds, timber, friendship.
+
+"You know what this means," he said, when it was secured. "If we're both still talking like fools in twenty years, your boy and my girl are going to grow up hearing this exact story from both of us, at the same time, contradicting each other on every detail."
+
+"They'll sort it out."
+
+"They'll have to. Because here's what I've decided." Melos held his wrist up, the bracelet catching the low light, and there was something building behind his grin now, something he'd clearly been turning over for longer than this conversation. "When they're grown—your boy, my girl, whatever ridiculous names we end up giving these children—they're going to meet. I don't know how. Maybe you visit Azeri. Maybe I finally make it out to Simulan to see this famous fishing lake you won't stop talking about. But they'll meet, and when they do, I want them to trade these back. Your bracelet to her. My necklace to him. Let them stand there confused about why their fathers are both crying over a piece of leather and a wooden bead, and let us tell them the whole ridiculous story of how two soldiers traded away their own children's birthrights on a quiet night between battles."
+
+Kawalan felt the laugh come up out of him before the tears did, both of them tangled together, helpless. "You've thought about this."
+
+"I think about a great many things while you're busy staring at your own wrist like it's about to recite poetry." Melos's grin was unrepentant. "Betrothed, Kawalan. Your son and my daughter. Sealed by their fathers' own stubborn affection for each other, long before either of them has any say in the matter."
+
+"That's not how betrothal works."
+
+"It is tonight."
+
+Kawalan laughed again, properly this time, and reached up to settle the wooden bead against his own collarbone where it would sit, he suspected, for a very long time. "Fine. Betrothed. But if she's anything like you, that boy is in for a difficult marriage."
+
+"If he's anything like you, she'll have to do all the talking for both of them." Melos knocked his shoulder against Kawalan's, easy and warm. "To the lake, then. The one you won't stop describing. I want to see this place that's apparently better than every lake in Azeri put together."
+
+"It is better than every lake in Azeri put together."
+
+"We'll see. I'm bringing my own rod. I refuse to be impressed on your terms alone."
+
+"You'll be impressed. And then you'll admit I was right, and I'll never let you forget it."
+
+"This is why I have a wife and you have a wife, and somehow we still end up married to each other's egos instead." Melos shook his head, grinning at the fire. "To the lake. And to both of us being there to see it."
+
+"To both of us," Kawalan echoed, and for a little while—two tokens swapped and settled, two futures spoken into the dark like they were already certain—the war on the other side of morning felt almost like something they'd survive simply because they'd decided to.
+
+
+THE FINAL STAND
+
+Dawn came the color of a bruise, and with it, the war.
+
+Kawalan stood at the head of his squad on the churned plain east of the river-fords, and watched the Otras lines come on. There were so many. The reports had said tens of thousands and the reports had not lied—the enemy filled the far ground from treeline to treeline, a slow black tide bristling with spears, and above them, between them, came the things that were not men. War-beasts on chains, scaled and horned, that bellowed and strained at their handlers. Riders on mounts that should not have existed. And here and there along the line, the bright unnatural flicker of the mages, the ones who could call fire from nothing and stone from still air, walking calm amid the slaughter-machines like priests at a butchering.
+
+Sarili's host stretched out around him just as vast, just as terrible. Two great walls of the living, closing on open ground, and between them only the morning and the certainty that by nightfall most of them would not see another.
+
+This was the last of it. Everyone knew. Two years the invasion had ground across the country, and it had come down to here—this plain, this day. If Sarili broke here, Sarili fell. If Sarili held, the Otras tide finally shattered. There was no third thing. There was no falling back to anywhere that mattered.
+
+"Hold the line," Kawalan called to his men, walking the row, gripping a shoulder here, a forearm there. Frightened faces. Boys and farmers and fishermen with spears they'd learned to hold two years too late. "Stay together. Stay shoulder to shoulder and the line holds, and the line is the only thing that keeps you alive. You hear me? Don't chase glory. Don't chase anything. Just hold, and watch the man beside you, and we go home."
+
+He didn't believe the last part the way he had two years ago. But they needed to hear it, so he said it, and he made it sound true.
+
+Down the line, perhaps thirty yards off, Melos was doing the same with his own squad. Their eyes met across the gap. Melos lifted a hand—a small thing, two fingers off his spear-haft, the gesture they'd traded a hundred mornings now. Still here. Still alive. See you after. Kawalan returned it. On Melos's wrist, the bracelet caught the bruised light. On Kawalan's chest, under the armor, the necklace lay warm against his heart, and he thought—as he thought every morning now—after this one. After this one we go home, and I hold my son, and we finally see whose lake is better.
+
+Then the horns sounded, low and shaking, and the black tide broke into a run, and there was no more time for thinking.
+
+The two hosts struck each other like a sea hitting a cliff.
+
+The noise alone nearly unmade him—the crash of ten thousand men meeting ten thousand men, the shriek of metal, the screaming, gods, the screaming, men and beasts and the dying all at once until the sound stopped being sound and became a pressure, a thing that lived inside the skull. The line bowed. Held. Bowed again. Kawalan's world narrowed to the spear-length in front of him: parry, thrust, shove, a face contorted in hate, then gone; another; another. The earth turned to red mud beneath their feet. Somewhere a war-beast had broken loose and was wading through the press, flinging men like straw, and somewhere a mage's fire went up in a roaring orange column and a dozen voices ended at once.
+
+"Forward!" The order came down the line—push, drive the wedge, break their center before the beasts broke ours. Kawalan took it up and roared it to his squad: "Forward! With me! Forward!" And they went, the whole bristling line of them grinding deeper into the enemy, into the heart of it, stepping over the fallen of both sides, and thirty yards away he could hear Melos roaring the same, the two squads driving in parallel toward the smoke-wreathed center where the worst of the fighting boiled.
+
+He lost track of time. There was only the next man, the next thrust, the burning in his arms, the mud, the blood not all his own. He took a spear-graze across the ribs and barely felt it. A boy from his village—Tomas, sweet Tomas who'd never hurt a soul before this war—went down beside him with a cry, and there was no time to do anything but step into the gap he left and keep the line whole. Forward. Forward. Deeper into the dark heart of the battle, where the air itself was beginning to change.
+
+Because the mages had found each other.
+
+Kawalan felt it before he understood it—a wrongness in the air, a pressure behind the eyes, the fine hairs rising all along his arms. Ahead, through a rent in the smoke, he saw them: two figures, far apart across the ruined center, and the world bending around each of them.
+
+On the Sarili side, the grand magician had raised both arms to the sky, and the ground itself was answering—the earth heaving up, gathering, rising in a vast tide of stone and soil that took a shape as it climbed, a shape with a great maned head and a deep stone roar, an upheaval in the form of a colossal lion, mountains' worth of earth rearing back to strike.
+
+And across from it, on the Otras side, the enemy's grand magician had called the other thing—a blaze, a living inferno coiling up out of nothing, twisting and lengthening into a serpent of pure raging fire, vast as the lion, its body a river of flame, its head drawn back to lunge.
+
+Lion of earth. Serpent of fire. Rising over the battlefield like two gods deciding the fate of small men.
+
+Kawalan stopped. Every soldier near him stopped, living and dying both, faces turning up toward the impossible things in the sky. This is what Barta saw, some distant part of him thought, absurd, calm. This is the manifestation of the elements. The air and the stone and the flame, called by their true names. He told me. He told me and I didn't—
+
+"KAWALAN!"
+
+Melos's voice. He turned toward it.
+
+Melos was already moving. He had seen it a half-second before Kawalan—seen the lion and the serpent rear to their full height directly above the place where the two squads had driven, seen the inevitable collision about to happen right there, over their heads, in the dead center of everything. And Melos was not running away.
+
+He was running toward Kawalan.
+
+The two titans struck.
+
+Lion and serpent slammed together in the air above the battlefield, earth and fire annihilating each other in a single instant, and the world ended in white—
+
+Melos reached him. Threw himself bodily into the space between Kawalan and the blast, arms wide, mouth open around a word Kawalan would never hear—
+
+—and there was light, and there was a wall of force like the hand of the sky coming down, and the last thing Kawalan Tigris ever saw with living eyes was his best friend's back, charred clothes and bloodstained shoulders, flung wide to shield him from the end of the world.
+
+Then nothing.
+
+Then nothing at all.
+
+· · ·
+
+He came to in silence.
+
+That was the wrongness his mind seized on first, before anything else: the silence. The battle that had been a pressure inside his skull, the screaming, the crash and roar of it—gone. All gone. There was only a high faint ringing, and beneath it, a quiet so total it felt like a held breath.
+
+Kawalan opened his eyes to a world made of dirt.
+
+It was everywhere. Falling from the sky in a slow brown drift, like snow, like ash, settling over everything. The ground had been torn open and flung about—great clods of earth, pale boulders heaved up from the deep, the whole center of the battlefield churned into something that no longer looked like ground at all. And the bodies. Bodies past counting, half-buried, flung and broken, Sarili and Otras tangled together in the ruin where the lion and the serpent had met and unmade each other and everything around them.
+
+He was on his back. He didn't remember falling. His body felt strange—light, and far away, and when he sat up it was too easy, no pain, no weight, as though he'd shed something heavy without noticing.
+
+He got to his feet in the drifting dirt. The ringing in his ears began to fade, and with the silence came the image of Melos.
+
+Kawalan turned, searching. "Melos?"
+
+The dirt fell. No one answered. And the words came anyway, surfacing from somewhere he couldn't name, until without deciding to he heard himself speak them aloud, low and bewildered: "It should have been me."
+
+He didn't know why he'd said it. He shook it off. He turned, scanning the ruin for his friend, for any of his squad, for anything living in all that broken ground—
+
+—and his eyes found the body.
+
+It lay a few paces off, in the churned earth where the blast had been worst. The top half of it was gone from sight, pinned and buried beneath a heavy fall of soil and a great pale boulder that had come down across the chest and head. Only the lower half lay free. One arm was flung out across the dirt, pale and still, the hand open. And on the wrist—
+
+Kawalan's breath caught.
+
+On the wrist was a bracelet. The protection-charm Barta had sent from the foothills, simple and worn, the cord of it dark against the pale skin. His bracelet—the one meant for Malakas, the one he'd pressed into Melos's hand only the night before. The token of comradeship that would outlast any war, that Melos had been wearing as he threw himself into the path of the blast—
+
+"No," Kawalan said.
+
+He went to his knees beside the half-buried body. He could not see the face. He did not need to see the face; the bracelet told him everything, the comrade crushed beneath the earth, a man who had been standing with his men at the center of the battlefield when the world went white.
+
+"No, no, no—Melos—"
+
+He reached for the buried body and his hands seemed to find no purchase, seemed to pass strangely over the dirt, but he was weeping too hard to mark it. His best friend. The carpenter who'd never wanted any of this. The man who'd traded gifts against a future of lakeside afternoons and grandchildren, who'd joked that you don't earn a spirit beast from a life that went well. Dead. Buried in the ruin of a battlefield, shielding Kawalan with his own body, with his own life, it should have been me, you always ran for someone, you were always running for me—
+
+"Why," Kawalan choked. "Why would you—you fool, you fool, why would you do that—"
+
+Kawalan knelt and wept over the buried body.
+
+And when at last he rose—numb, hollow, the dirt still falling—he was left with only the silence of a ravaged battlefield.
+
+He fixed his heart on a single point, far to the northeast.
+
+Home, he thought. I have to get home. I have to get home to Zephyress. To my son.
+
+
+PART THREE: THE LONG WAY HOME
+
+
+THE CAMP
+
+The lights were the first thing he saw.
+
+Kawalan didn't remember deciding to walk toward them. One moment he was stumbling through the dark with that crushing weight in his chest, his body aching as though every bone had been ground against stone—and the next, there were lanterns. Warm and golden, strung between timber posts. The smell of roasting meat. The low thrum of a drum, and voices raised in song.
+
+A camp. A war camp.
+
+He knew it the way he knew his own hands. The way the spears were stacked in tripods near the cookfires. The way the men sat with their backs to the wall and their weapons within reach even in celebration. The mismatched armor, the bandaged limbs, the particular laughter of people who had survived something and were not sure they'd survive the next thing. These were soldiers. His kind. Sarili soldiers—he knew it from the cut of their gear, the accent in their shouting, the old marching songs that every hill boy and lowland farmer alike had been taught to sing before they were taught to fight. Not his squad. Not men he'd bled beside. Just—his country's men. His people. The kind of familiar that doesn't need a name attached to it, only a flag.
+
+Someone pressed a cup into his hand. He didn't see who. A woman with a scar across her brow and forearms like braided rope clapped him on the shoulder and shouted something he didn't catch over the music. He laughed anyway. It felt good to laugh. It felt good to be here, among people who understood, who carried the same shadows behind their eyes.
+
+"You look half-dead, brother," a man said, grinning, refilling Kawalan's cup though he didn't remember drinking from it. "Sit. Eat. Tomorrow's tomorrow."
+
+He sat. He ate, or thought he did—the food had no weight in his mouth, no true taste, and some far-off corner of his mind noted this the way you note a dream is a dream without it waking you. He let it go. The faces around the fire blurred and sharpened, blurred and sharpened. He recognized none of them and all of them, the way you recognize a stranger's face as belonging unmistakably to your own village before you can say whose son or daughter they are. That one's laugh—wasn't it the laugh of half the boys he'd grown up hearing across the Simulan courtyard? That woman sharpening her blade—didn't she have the flat lowland vowels of every trader who'd ever come up the mountain road? He couldn't place a single one of them to a face he'd known before the war. But the feeling of them was as familiar as breathing, the way his own country was familiar to him, in the blood and not the memory. They were soldiers, every one—strong men and hard-handed women, warriors and a scattering of magicians, and as he watched them drink and boast and check their blades he understood with a quiet certainty that they were not resting. They were readying. Every one of them was bound for war.
+
+He drank with them. He let himself, for one stolen hour, be only a soldier among soldiers, with no road behind him and no home calling him north and east, and it was the first ease he'd felt since the white light had taken the world apart.
+
+Then—across the fire, through the smoke—a back. Broad shoulders, dark hair cropped short the way Melos always wore it so it wouldn't catch in his helmet straps. The set of him. The tilt of his head as he leaned in to hear a joke.
+
+Kawalan was on his feet before he understood he'd moved.
+
+"Melos—"
+
+He pushed through the crowd, the cup falling from his hand without spilling, the song roaring in his ears. He reached the man and seized his shoulder and turned him—
+
+A stranger's face. Older. Heavier. A jagged scar where Melos had none.
+
+The man blinked at Kawalan with mild confusion, said something Kawalan couldn't hear, and turned back to his drink, entirely unbothered, as though hands seizing him out of nowhere were the least strange thing that had happened to him all night.
+
+Of course. Of course it wasn't him. Melos was—
+
+The thought wouldn't complete. It slid away from him like water through fingers.
+
+Someone showed him to a room—a low timber lean-to with a straw pallet. He didn't remember asking for it, didn't remember the walk there, only that one moment he was standing in the crowd and the next the noise of the celebration was behind a door. As he ducked under the doorway, the celebration crested at his back, and one voice rang out clearer than all the rest, lifting a cup to the rafters:
+
+"Here's to staving off those Otras bastards! May they choke on Sarili dirt!"
+
+A roar of approval. Kawalan smiled in the dark. Good, he thought. Good. We're still fighting. We haven't lost.
+
+He lay down on the straw, and it did not feel like straw beneath him so much as the suggestion of straw, a kindness offered by the dark rather than a true thing he could have weighed in his hands—and he was too tired, too grateful for the not-thinking of it, to wonder why.
+
+He closed his eyes.
+
+· · ·
+
+Pain woke him.
+
+Not the dull ache of before but a crushing—an immense, suffocating weight pressing down across his chest and skull, as though the whole earth had collapsed onto him. He couldn't breathe. He couldn't see. For one endless moment he was buried, drowning in soil and the dark, and a sound came out of him that wasn't quite a scream—
+
+And then it was gone.
+
+He was sitting upright on the straw pallet, gasping, drenched in something that wasn't sweat because he didn't seem to sweat anymore. Grey light leaked through the gaps in the timber. Morning.
+
+Silence.
+
+No drums. No song. No smell of cookfires.
+
+Kawalan stood on unsteady legs and pushed through the doorway.
+
+The camp was empty.
+
+Not quiet—empty. The lean-tos sagged, their timber grey and split with weather. The fire pits were cold, the ash packed down hard and crusted, scattered with the husks of dead leaves. The spear-tripods he'd seen the night before were gone, or had never been there. Where the celebration had roared, there was only wind moving through abandoned structures and the creak of a loose board somewhere.
+
+He knelt by the nearest fire pit and pressed his palm to the ash. Cold. Cold all the way through. He found the ruts where cart wheels had cut into the earth—but the mud had hardened to stone, the tracks at least a week old. Maybe more.
+
+No one had been here. No one had been here in a long time.
+
+A chill walked up his spine that had nothing to do with the morning air. He looked back at the lean-to where he'd slept, half-expecting it to be gone too, to find he'd lain on bare ground all night. It was still there. But it looked as though no one had touched it in seasons—the straw rotted through, the timber silvered with weather, a small tree already pushing up through what had been the threshold.
+
+A whole season's growth, in a single night.
+
+A dream, he told himself. The word felt thin. I was exhausted. I dreamed it. The pain, the people—a dream.
+
+But his gut said otherwise. His gut, which had kept him alive through two years of war, said leave. Said something is wrong here, and you do not want to learn what.
+
+He didn't argue with it. He thought, distantly, of asking the tiger—and found, with a small fresh unease, that the tiger was nowhere to be seen, had not been seen since the road into camp the night before, as though whatever this place was, it was not a place the beast cared to enter, or could.
+
+He gathered himself, fixed the direction home in his mind—north and east, toward the mountains, toward Simulan—and walked out of the dead camp without looking back.
+
+The unease followed him.
+
+It was in the wind, which had picked up to a low moan through the trees. It was in the way the light never seemed to warm. And then, faint at first and then unmistakable, it was in the sound—carried on the wind from somewhere behind him, somewhere out in the wild country he'd left: a roar. Long and guttural and full of hunger. The cry of some great beast, answered by what might have been a scream—human or animal, he couldn't tell.
+
+Kawalan's hand found the hilt of his sword. He did not run. But he walked faster, and the necklace at his throat—Melos's necklace—seemed to grow warmer against his skin, as though it remembered a promise.
+
+
+THE FOREST
+
+Days bled together.
+
+Kawalan walked. He didn't tire the way he should have, didn't hunger the way he should have, and somewhere in the back of his mind a small voice noted this and was ignored. He was too tired in a different way—a bone-deep, soul-deep exhaustion that no sleep touched. He followed his gut northeast, toward home, toward Zephyress and the child who must surely be born by now. A son. Malakas. The thought of the name was a lantern in the dark, and he walked toward it.
+
+But he was not alone.
+
+He couldn't have said when the feeling began. Only that it grew. The prickle at the back of the neck. The sense of eyes between the trees. Twice he'd spun, sword half-drawn, to find nothing but swaying branches and the long shadows of dusk. Paranoia, he told himself. The mind playing tricks after too long alone.
+
+But his gut, again, said otherwise.
+
+When the light failed on the third day, he made camp in a hollow ringed by brush, with a fallen log at his back so nothing could come at him from behind. Old soldier's habit. He didn't light a fire—some instinct warned against it. He simply sat, sword across his knees, and watched the dark thicken between the trees.
+
+The wind rose.
+
+It came suddenly, a cold gust that set the whole forest hissing, every leaf and branch rattling at once. The brush around his hollow shuddered. And beneath the wind, threading through it, came a sound that turned his blood to meltwater:
+
+Whispers.
+
+Dry and rasping, like the last breath leaving a dying man. Not words at first—and then, horribly, words:
+
+"There you are."
+
+Three figures rose from behind the brush.
+
+They were wrong. That was the first thing Kawalan understood—wrong in a way his eyes refused to focus on. Wrapped head to foot in tattered dark cloth that moved like smoke at the edges, faceless, their hands ending in blades that caught no light. They did not walk so much as pour forward, low and hungry, and the whisper came from all three at once though none of them had mouths.
+
+"There you are. There you are. Lost little thing—"
+
+The lead figure lunged.
+
+Kawalan threw himself sideways off the log, the blade hissing through the space where his throat had been, and came up in a crouch with his sword raised. Two years of war moved his body before his mind caught up. Three of them. Open ground behind. Log to the left. Move, move—
+
+The second figure was already circling wide to flank him.
+
+And then the brush behind Kawalan—behind him, where nothing should have been able to approach unseen—exploded outward in a roar that shook the hollow.
+
+A tiger.
+
+Enormous, far larger than any beast Kawalan had ever seen, its fur the deep burnished gold of dying firelight, its eyes blazing in the dark. It came over the fallen log in a single bound and slammed into the lead figure with the force of a falling tree. The figure shrieked—a sound like tearing cloth—as the tiger's jaws closed on it and shook, and where the creature's smoke-flesh tore, no blood came, only a guttering darkness like a snuffed candle.
+
+The other two recoiled—not in shock alone, Kawalan would think later, but in something closer to recognition, the particular flinch of small things remembering what a larger thing can do to them.
+
+He did not waste it.
+
+He surged forward and drove his blade into the nearest figure before it could recover, the steel punching through the tattered cloth and out the other side. The figure convulsed, clawing at him with blades that scored his forearm—he felt the cold of it more than the pain—and then it came apart in his hands, dissolving into ribbons of black smoke that the wind snatched away.
+
+He spun toward the third.
+
+It had gone still, and was no longer advancing. The tiger stood between it and Kawalan now, golden eyes fixed on it without blinking, every line of that vast body coiled and ready, and the message in it needed no words: come no further. And though the last wraith had no face, Kawalan felt its gaze move from him, to the tiger, to its two dissolving companions—and felt it understand, plainly and completely, that it had no claim here. Not tonight. Not against this.
+
+It was retreat, not mercy. Kawalan understood that much even then, with his sword still dripping black smoke into the dirt—the thing did not leave because it had finished, or because it pitied him. It left because the tiger had made the cost of staying unbearably clear, the way a wolf gives ground to a bear without needing to be told twice why.
+
+The whisper came one last time, low and venomous, retreating into the trees:
+
+"We will meet again."
+
+And it was gone, swallowed by the dark, leaving only the settling wind and the sound of Kawalan's own ragged breathing.
+
+He turned.
+
+The tiger stood over the remains of the lead figure, breath steaming, golden eyes fixed on him. Up close it was even more massive, more impossible. The firelight color of it seemed to shift and breathe. And it was watching him with an intelligence that made the hair on Kawalan's arms stand up.
+
+He raised his sword and leveled it at the beast.
+
+"Back!" His voice cracked. "Or you're next!"
+
+The tiger did not so much as flinch. When it spoke, its voice was low and unhurried, rolling out of that great chest like distant thunder.
+
+"Calm down. You won't die here. I'm not your enemy."
+
+Kawalan's grip faltered. The blade dipped an inch.
+
+"You can talk." The words came out a whisper. Then, harder, the sword snapping back up: "You can talk—you're one of them!"
+
+"One of what?" the tiger asked mildly.
+
+"A spirit beast!"
+
+The tiger regarded him for a long moment. Then, with something that might have been amusement: "If that makes you feel better—sure."
+
+"What does that mean?"
+
+"Matters not." The tiger took a step closer, unbothered by the sword between them. "It seems you don't want your journey to end. So sheathe your weapon, Kawalan."
+
+He went very still.
+
+"How do you know my name?"
+
+"I know many things." The tiger's eyes held his, ancient and patient. "As do you. Even if you're not completely aware of it yourself."
+
+"What do you mean by that?"
+
+The tiger said nothing. There was a particular quality to that silence, Kawalan would understand much later—not the silence of a creature with nothing to say, but the silence of one weighing exactly how much a man could be told and still keep walking. It only stared—into him, through him, those golden eyes steady and depthless—and in that silence something stirred at the bottom of Kawalan's mind. A recognition with no memory attached. A name he hadn't been told but somehow already knew, rising up through the dark water of him like a drowned thing surfacing.
+
+His sword arm lowered. The words left him in a breath, barely audible:
+
+"Of the Loss..."
+
+The tiger inclined its great head.
+
+"You may call me as you wish." It turned, tail sweeping the air, and looked back over its shoulder. "Either way—it seems you'll get no rest as you are now. Let's continue your journey."
+
+Kawalan stood rooted, sword forgotten at his side. "How do you know where I'm going?"
+
+The tiger only looked at him. That same silent, knowing gaze—the gaze, Kawalan would come to recognize, of someone choosing every single time what not to say.
+
+Kawalan let out a long breath and sheathed his blade.
+
+"Never mind..."
+
+
+THE RIVER OF THE DROWNED
+
+They came down out of the hills on a grey afternoon, and there was the river.
+
+It was wide and slow and the color of old pewter, moving without sound between banks of pale stone. The far side was lost in a low mist that didn't lift no matter how long Kawalan stared at it. Of the Loss had gone quiet beside him—quieter than usual, his great head low, his golden eyes fixed on the water with something that might have been wariness.
+
+"We cross here?" Kawalan asked.
+
+The tiger didn't answer. His ears had flattened.
+
+"Of the Loss?"
+
+Still nothing. The great beast's gaze stayed on the mist, and for a moment Kawalan thought he saw something pass behind those golden eyes that he had not seen before—not the patient, knowing stillness he'd grown used to on the road, but something nearer to hesitation. As if the water itself were a question the tiger did not care to answer aloud.
+
+"Stay close to me here," Of the Loss said at last, low. "Closer than you've needed to before."
+
+"Why?"
+
+"Because the boundary runs thin over water. It always has. The dead cross rivers more easily than they cross anything else, and so do the things that hunt them." The tiger's tail lashed once, sharp. "Stay close."
+
+Kawalan meant to. He told himself, after, that he had meant to.
+
+Then the mist on the far bank stirred—and there were people in it.
+
+Kawalan's breath stopped. He knew them. He knew them. There was Dakila, who'd carried the squad's banner and sung filthy marching songs in a beautiful tenor; there was the brothers from the fishing villages whose names he'd never been able to keep straight; there was the boy—gods, the boy, the one who'd been too young, who'd cried the first night and sworn Kawalan to secrecy about it. A dozen of them. Two dozen. His men. His dead men, standing on the far bank in the mist, whole and unhurt, watching him with calm and patient faces.
+
+"Captain," one of them called. The word carried across the water though no one had raised their voice. "Captain, you made it."
+
+Kawalan took a step toward the bank. Beside him, Of the Loss made a low sound in his chest—not quite a growl, not quite a warning, something caught between the two—but Kawalan barely heard it. The water and the mist and the faces of his dead had swallowed everything else.
+
+"You're—how are you—"
+
+His eyes raked across them, faster and faster, counting faces, searching. Dakila. The brothers. The boy. The big quiet man who'd shared his fire. He knew them all, every one, and that was the problem, because the one face he was looking for wasn't among them. He searched the line again, and again, his chest tightening, his lips already shaping the name—
+
+Melos. Where is Melos. Why isn't he—
+
+"What are you looking for, Captain?"
+
+It was Dakila who spoke. He was smiling, gentle and sad, and as he spoke his gaze slid sideways—deliberate, unhurried—down and away from Kawalan's face, drawing Kawalan's eyes with it like a hand on his jaw turning his head.
+
+"Maybe," Dakila said softly, "you're looking in the wrong place."
+
+Kawalan's gaze followed the dead man's eyes down—
+
+—to the river.
+
+There, beneath the pewter surface, was a shape. A vague dark outline, suspended in the grey water as though it had been sinking forever and never reached the bottom. The shoulders. The set of the head. The shape of a man Kawalan would have known anywhere, in any light, under any water.
+
+"Melos," he whispered.
+
+He took another step. He did not notice that Of the Loss had not moved with him—that the tiger had gone very still at the edge of the bank, watching the water with an intensity that was no longer wariness but something close to alarm, a stillness with all the coiled readiness of a beast deciding whether the moment to act had come yet.
+
+A hand was reaching up.
+
+From the depths of the figure, a single hand stretched toward the surface—slow, yearning, fingers spread—rising up through the grey toward the light and the air and Kawalan. And there, at the wrist, beneath the water's skin, a gleam of silver caught what little light there was. A bracelet. His bracelet, the one he'd pressed into Melos's hand before the battle, the one Melos had been wearing when—
+
+"Melos," Kawalan said again, and his own hand was rising now, lifting toward the water, reaching for the hand reaching for him.
+
+He was perhaps four feet from the bank. He didn't remember the distance closing, but it was closing. The longing pulled him forward the way the tide pulls a drowning man, soft and total and impossible to argue with. It's him. It's really him. I can reach him. After everything, I can still—
+
+Three feet. Two.
+
+The hand rose higher, breaking toward the surface, the silver at its wrist brightening.
+
+A foot away now. Kawalan went to his knees at the water's edge, his arm outstretched, fingertips trembling toward the surface where Melos's fingertips trembled up to meet them. So close. A hand's breadth. The longing was a roar in his ears, drowning out everything, drowning out the small cold voice that had kept him alive for two years and was screaming now, far away, wrong, wrong, this is wrong—
+
+The hand broke the surface.
+
+And the flesh came apart.
+
+Where Melos's hand pierced the skin of the water, the illusion of it dissolved—the warm brown skin, the calloused carpenter's fingers, all of it sloughing away into the wind like ash off a burnt log—and what continued up out of the river was bone. A skeletal hand, grey and dripping, still reaching, the silver gleam at its wrist nothing now but a trick of the dead light. The fingers stretched the last inch toward Kawalan's—
+
+A roar split the air behind him, and Kawalan's body was ripped backward off the bank.
+
+Teeth in his collar, the wrench of a great neck, and he was flung sprawling across the stone three full body-lengths from the water as Of the Loss came down between him and the river—not from where Kawalan had last seen him standing, but from somewhere closer, lower, a shape that had been creeping nearer the whole time unnoticed, patient and silent and ready, waiting only for the moment its claws would matter. The tiger's voice when it came was a thing of fury and grief:
+
+"Foolish! Not even knowing what is lost and what remains!"
+
+In the river, the figure that was not Melos rose.
+
+It came up out of the water and kept rising, the last of the borrowed flesh streaming off it into nothing, until it floated above the pewter surface—a shape of shadow and bone and hunger, the same wrongness Kawalan had felt in the forest, the same dry rasp beneath its shriek, save that this one had not come baring blades and a lunge. This one had come patient. Had come gentle. Had built its shape out of grief instead of fear, and very nearly succeeded where a blade could not have. On the far bank, his comrades were already going: Dakila, the brothers, the boy, all of them thinning and scattering like dust off a windowsill, their patient faces the last thing to fade, until the mist held nothing at all.
+
+It had never held anything at all.
+
+"It is inevitable!" the figure screeched, and lunged—
+
+A paw the size of a war-shield came down on it.
+
+Of the Loss struck the figure out of the air so hard that it bounced—slammed into the stone bank and skipped off it like a flung stone off a pond—and in that half-second of its tumbling, Kawalan moved.
+
+He didn't decide to. That was the thing he would turn over and over afterward and never understand. His body simply went, faster than thought, faster than grief, up off the ground and across the stone with his sword already drawn, and he drove the blade through the center of the shadowy figure and pinned it screaming to the earth. His arm was a blur. His feet had crossed the distance before his mind knew he'd risen.
+
+It did not feel like him. It felt like something else wearing him, some furious refusal that lived in his bones and would not, would not be dragged down into that grey water—
+
+—and down his face, as the figure came apart beneath his sword and unraveled into smoke and silence, a single tear was rolling.
+
+He didn't know where it came from. He hadn't felt it begin. He knelt over the dissolving dark with his blade buried in the stone and his chest heaving, and the tear traced down his cheek and fell, and he could not have said whether it was the strange lightning in his limbs—that reflex that seemed to reject death itself—or the tear that was the more foreign thing. Both felt borrowed. Both felt like they belonged to a man he was and wasn't.
+
+The wind died.
+
+The river ran on, slow and grey and empty, the way it must have run for a very long time.
+
+Kawalan stayed on his knees a moment longer. Then he drew his sword from the stone—it came free without a mark, as though the ground had never been struck—and he wiped his face with the back of his wrist, and he did not look at the water again.
+
+Of the Loss stood close beside him, breath steaming, golden eyes no longer furious. Only sorrowful. Only watching.
+
+"...It looked like him," Kawalan said. His voice came out cracked and small. "It looked exactly like him. Why didn't you stop me sooner? You said to stay close. I felt you let me go."
+
+The tiger was quiet for a moment, and there was something almost like guilt in the great gold face. "I was closer than you knew. I am always closer than you know—I have learned, since the forest, to let you believe otherwise, because a thing that wants to devour you watches first for what is guarding you, and a guardian seen too soon is a guardian it can plan around." His ears flattened. "I let it believe you were unwatched. I did not let you believe it would win. There is a difference, though I understand if it did not feel like one, on your knees at the water's edge."
+
+"It almost worked anyway."
+
+"Yes." No defense in the word. Only the truth of it. "Because it did not come at you with blades, the way the others did. It came at you with longing. There is no guarding a man fully against that—only watching, and being close enough to pull him back before the longing finishes what it starts." The tiger's eyes held his. "I am sorry for how close that was. I will not let it be closer next time."
+
+Kawalan's hand had risen to his throat without his telling it to, and his fingers closed around the necklace there, Melos's necklace, warm against his skin as it always was, the one true-feeling thing in this whole drowned grey country. He held it like an anchor.
+
+"Why does it know what I've lost?"
+
+Of the Loss was silent for a long moment.
+
+"Because you carry it openly," the tiger said at last. "It is the easiest thing in the world to see." He turned, and looked upriver, where in the far distance the land began to climb again toward mountains Kawalan was beginning, with a terrible mounting ache, to recognize. "Come. We're close now. Whatever waits at the end of this, it is closer than the things behind us."
+
+Kawalan rose.
+
+He followed the tiger along the bank, the necklace warm in his fist, and behind them the River of the Drowned closed over its secret and said nothing, and the mist on the far shore held no one at all, and had never, not once, held anyone he could reach.
+
+
+PART FOUR: HOME
+
+
+THE JOURNEY BACK
+
+He smelled the cooking-smoke of Simulan before he saw the rooftops, and whatever moved in him now, where his heart had been, lifted so hard it hurt.
+
+There—the bend in the path he'd walked ten thousand times. The crooked fence post his father had never fixed. The well, the smithy, the long low roofs catching the last gold of the day. Two years. Two years of mud and blood and a country of ghosts, and he had made it. Tears blurred the gold light to streaks. He laughed, a wet and broken sound, and walked faster.
+
+An old woman sat shelling beans in her doorway. He knew her—Inang Lira, who'd swatted him with a broom as a boy for stealing mangoes. He lifted a hand to her. She did not look up.
+
+Two children ran past him down the lane, close enough to touch, shrieking with laughter. Neither so much as glanced at the filthy soldier weeping in the road. Busy, he thought. Dusk. I'm changed. Two years changes a man. He told himself these things and walked on, and the wrongness lapped at the edges of his joy like cold water he refused to feel, because there—just there, past the apricot tree—
+
+—was home.
+
+And in the doorway, in the amber light, stood Zephyress.
+
+He stopped breathing.
+
+She was thinner than he remembered, and older, the softness of girlhood worn down to something stronger and sadder. There were threads of grief in the set of her shoulders, in the careful way she held herself, like a woman carrying a stone she'd learned to bear. She was more beautiful than anything in the world.
+
+And in her arms, settled on her hip, was a child.
+
+A boy. Dark-haired, grave-eyed, with the shape of Kawalan's own brow. Two years old, give or take. A son he had never seen. A son born after he'd marched away, whom he had never once held, whose first cry he had not heard, whose name he had only ever spoken to the dark of a war-camp like a prayer.
+
+Malakas.
+
+"Zephyress," he breathed.
+
+She did not turn.
+
+But the boy did.
+
+Malakas lifted his head from his mother's shoulder and looked—directly, unerringly—at Kawalan. His small face went round with that grave, open wonder only the very young possess. And he reached out one fat little hand across the gold evening air, fingers spreading toward the weeping soldier in the lane, and he said it, clear and certain:
+
+"Dada."
+
+Zephyress's eyes filled at once. She thought he was reaching at the air, at the carved likeness she'd surely shown him a hundred times, at the stories she must have told him every night of a father he'd never know. She pressed her lips to his dark hair and held him closer, and her voice came out thick.
+
+"Yes, my love," she whispered. "Dada."
+
+Kawalan broke.
+
+He crossed the last of the distance without knowing he moved, and he gathered them into his arms—both of them, wife and son, everything he had bled for, everything he had crossed a drowned grey world to reach—and he buried his face in her hair and held on.
+
+"I'm home," he sobbed. "Zephyress. Malakas. I'm home, I made it, I'm finally home—"
+
+He could feel them. The warmth of them. The realest thing in all the long dark.
+
+And in the circle of his arms, Zephyress went very still.
+
+Her own tears spilled over. She held her son against a sudden warmth in the cold dusk she could not name, and she closed her eyes, and she said it—soft and broken, to the doorway, to the gods, to no one at all:
+
+"I wish he were here."
+
+The world stopped.
+
+Kawalan pulled back. "I am here." He said it smiling, half-laughing through his tears, confused. "Zephyress—I'm right here. I'm holding you. Look at me. I came back, I kept my promise—"
+
+She did not look at him. Her gaze passed through where his eyes were and settled on the empty middle distance of her own grief. Only the boy watched him. Only the boy.
+
+"Zephyress." Quieter. The cold creeping in at last, where he could no longer keep it out. "Zephyress, why won't you look at me—"
+
+And it all came back. All of it, in a single drowning rush.
+
+The crushing weight that had woken him in the dead camp—the weight of earth, of stone. The hunger that never came, the exhaustion no sleep could touch. The sword that left the rock without a mark. The comrades on the far bank who'd known his name, who'd called him Captain, every one of them dead and waiting for him. The tiger that had come from behind him, where nothing living could approach. Not even knowing what is lost and what remains. Melos's voice in his head—it should have been me. The half-buried body in the broken ground, the bracelet on its wrist, that he had looked at and grieved over and never, not once, recognized.
+
+A light, beside him. Soft and gold and growing.
+
+He turned. Of the Loss stood in the amber doorway, and the tiger was glowing—a deep warm gold welling up from within the burnished fur, the firelight color it had always been—and its eyes, fixed on him, held a grief so old and so tender that Kawalan understood, before he understood anything else, that the tiger had known. Had always known. Had walked every step of that grey country with the truth held quiet in its mouth.
+
+The gold swelled, and the doorway dissolved, and Kawalan was somewhere else.
+
+Somewhen else.
+
+The battlefield, after. The terrible silence where the lion and the serpent had screamed. Dirt falling like brown snow from a ruined sky. Bodies past counting, broken earth as far as the smoke allowed. And there, in the churned ground—a body. Half-buried, its top pinned beneath a fall of heavy soil and a great pale boulder, only the lower half free, one bare arm flung across the dirt.
+
+His spirit stood over it, weightless and untethered, and looked down, and did not know whose body it was. Could not see the crushed and buried face. Saw only the flung-out arm. The hand. The bare wrist.
+
+Then Melos came.
+
+He staggered out of the smoke, and he was ruined—clothes charred half from his body, blood gone black on his face and arms, one leg dragging—but whole, all his limbs his own, alive. He was weeping. He fell to his knees in the dirt beside the half-buried body, and he did not see the spirit standing three feet away. He did not feel it watching. He saw only the body, only his friend crushed beneath the earth.
+
+"I'm so sorry," Melos said, his voice wrecked past mending. "It should have been me. It should have been me, Kawalan—you always ran for someone, you were always running for me—"
+
+Kawalan, the watching spirit thought, dim and far away and uncomprehending. Who is he weeping for?
+
+Melos pressed his bloodied brow to the dirt above the buried chest. Then he sat back, and with shaking blackened fingers he worked the cord of the bracelet from his own wrist—the protection-charm of Simulan, the gift, the betrothal-token meant for a daughter not yet born—and he lifted the dead man's flung-out hand, and he tied it gently around the bare wrist.
+
+"This is yours now," he whispered. "It's kept me alive through all of it. Every battle. It saved me when I'd no business being saved." His tears struck the dirt. "Let it guard you where I can't follow. Let it grant you protection on your journey through whatever comes after. Wherever the road goes now—let it bring you home."
+
+He held the dead hand a moment longer. Then he laid it down. He climbed to his feet, swaying, and looked once more at the body in the broken earth—and then he turned, and walked on, dragging his ruined leg back toward the center of the battlefield where the war still screamed, alone, unaware, leaving the bracelet on the wrist of the half-buried dead.
+
+On the wrist of Kawalan Tigris.
+
+The body in the dirt was his. The body he had stood over and grieved and failed to know, two months and a whole haunted country ago, was his own.
+
+The flashback released him.
+
+He knelt again on the threshold of his own home, in the gold light, his wife and son before him and a glowing tiger at his side, and he understood the whole shape of it, complete and final.
+
+"I died," he said.
+
+Not a question. He looked at his hands, and they were his and they were not—not flesh, not warm, not anything the living could hold. He looked at the evening light passing clean through his outstretched fingers.
+
+"I died there. In the dirt. Under the stone. I never made it off the field at all." His voice cracked. "Everything since—the camp, the forest, the river—all of it was—"
+
+"The long way home," said Of the Loss.
+
+The tiger's voice was gentle now, all its thunder gone soft.
+
+"You would not go," it said. "When the body fell, the road opened—the natural road, soft and certain and final, the one every soul is meant to walk. And you turned your back on it. You set off the other way, toward a village two months distant, toward a woman and a child you'd sworn to come home to. A dead man, walking home." Something like love moved in the great gold face. "No soul is meant to do that. The lost things in the dark—they are what becomes of those who will not go. They were waiting to unmake you. To make you one of them."
+
+"But I didn't," Kawalan whispered. "I didn't become one of them."
+
+"No," the tiger said, and its gold burned brighter. "Because you did not walk alone."
+
+And Kawalan understood the last of it.
+
+The name rose in him the way it had risen in the forest—but this time he understood what he was saying. The name is the thing it was born out of. The wound, or the wanting, or the loss. You don't get a spirit beast from a life that went well. He had laughed, that last good night by the fire, and named the ones he wanted. By the Victory. For the Long Life Ahead. Something a man wants to hear.
+
+But this was the name the wound had made.
+
+"Of the Loss," he said.
+
+"Of your loss." The tiger's gold was rising off it now in slow bright ribbons, lifting into the air. "I am the part of you that would not surrender. Born in the dirt the moment you fell—born of everything you could not bear to leave behind. Your love for her. The son you'd never held. The promise you could not break, even by dying." Its eyes shone. "I walked beside you because you could not face the dark of it alone. I fought because you still had a reason to fight. And I kept the truth from you—not to deceive you, but to carry it, until you were strong enough to set it down. Until you'd come home. Until you'd held them. As you swore you would."
+
+Kawalan looked at his wife. At his son. The gold was everywhere now, welling up out of the tiger and the doorway and the very seam of the evening.
+
+"I held them," he said. "I got to hold them."
+
+"You did."
+
+"Then it was worth it." The tears ran free down his face, and these he understood—these were wholly his, grief and gratitude and a love that had outlasted his own heartbeat. "The whole long dark. It was worth it, to hold them once."
+
+The tiger lowered its great head. "Then it is time," said Of the Loss. "You have done the impossible thing. You have come home. There is nothing left to fight, nothing left to fear, and a road that has waited very patiently for a very stubborn man." Its gaze was tender. "Will you walk it now? With me?"
+
+"With you," Kawalan said.
+
+And Of the Loss began to change.
+
+The great gold body folded inward, drawing its light into itself, smaller and brighter and brighter—the burnished fur, the blazing eyes, the vast patient strength of it collapsing down to a single point of warm gold light that drifted to Kawalan's outstretched hand and settled around his wrist—
+
+—and became the bracelet.
+
+The protection-charm of Simulan. Melos's gift, tied to a dead man's wrist in a field of the slain. It circled Kawalan's wrist now, simple and worn and real—and only then, only in that last moment, did he understand that it had not been there. The whole journey. The camp, the forest, the river. His wrist had been bare the entire way, and he had never once looked, never once felt the absence, because the bracelet had never been lost at all.
+
+It had been walking beside him. Gold and burning and impossible. Guarding him home.
+
+The protection Melos prayed for had come. Just not in any shape a living man could have dreamed.
+
+Kawalan closed his eyes. He felt the bracelet warm at his wrist, and the necklace warm at his throat—Melos's necklace, the goodwill, the long life, the one true thing he'd carried through all the grey—and the two gifts that two friends had traded against a future neither would live to see rested together at last on the body of the man going home the only way left to him.
+
+And the gold light rose.
+
+It lifted him gently, the way morning lifts the mist. And as it gathered him up out of the doorway and into the bright—Zephyress raised her head.
+
+She went very still. Her tear-bright eyes widened, and she turned, slowly, searching, toward the empty doorway full of evening light. She did not see him. Not quite. But something crossed her face that had not been there a breath before: a sudden warmth in the cold dusk, a presence brushing past her like a gentle wind—like the wind she was named for—warm and known and gone almost before it came.
+
+Her lips parted. "...Kawalan?"
+
+And in her arms, Malakas laughed—a bright, delighted, certain laugh—and reached up with both hands toward the gold pouring out of the doorway, toward the place where his father was, and said it once more, joyful now:
+
+"Dada!"
+
+Kawalan, rising, looked down at them one last time. His wife with her face turned up to a light she could feel and almost see. His son, reaching, laughing, knowing. He had sworn to grow old with her and watch their boy grow tall, and he would not get the growing old, and he would not get the watching, and the grief of that was a real and terrible thing the gold could not entirely burn away.
+
+But he had come home. He had held them. They knew, in the deep wordless way the heart knows a thing, that he had stood in this doorway—that he had crossed the whole dark world to reach them one last time.
+
+It would have to be enough. And rising into the warm and rising gold, his wife's whisper following him up like a blessing and his son's laughter ringing after, Kawalan found that it was.
+
+"I'm home," he said, to her, to the boy, to the gold. "I came home. I'll be waiting—take your time, my loves. Take all the time in the world. I'll be waiting at the end of the road."
+
+The light flared, soft and bright as a second dawn.
+
+And Kawalan Tigris—warrior and hunter, husband and father, the chieftain's son who would not surrender—went home at last. The long way. The only way. With the loss that loved him folded warm around his wrist. He ascended into the gold, and found his rest, and was at peace.
+
+In the doorway, the evening light went ordinary again.
+
+Zephyress stood a long moment, holding her son, her cheek wet, her heart eased in a way she could not explain. The boy had quieted, his head on her shoulder, content. The cooking-smoke drifted. The village settled toward night.
+
+"I wish you were here," she murmured to the quiet doorway—the way she said it every evening.
+
+But this evening, only this once, it did not feel so much like wishing.
+
+It felt, almost, like something answered.
+
+
+— END OF COMPILED DRAFT —
+
+Kawalan and the Journey Back · a novella in progress
